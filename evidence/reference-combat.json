@@ -1,0 +1,15 @@
+{
+  "reference_commit": "248be0d9d80e04cf24ec5eaa1a2b50aa2f90795f",
+  "cases": 655360,
+  "scenarios": [
+    "stationary moth",
+    "stationary bee",
+    "flying moth",
+    "flying bee",
+    "green boss"
+  ],
+  "fixture_sha256": "8a2c367f66cd7b711074dd7dff9b778c69e848b90fa30efc922f17e6cb6794c1",
+  "harness_sha256": "d4464bc46b65ad9c22bf229ee9ff6ae8fe2e399b7c9a3bd7224d33991c3e3ea4",
+  "reference_modified": false,
+  "limitations": "Only common paths where the C reference agrees with verified assembly; known discrepancies have separate assembly-based tests. Counter comparison includes the low byte only."
+}

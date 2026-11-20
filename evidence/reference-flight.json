@@ -1,0 +1,14 @@
+{
+  "reference_commit": "248be0d9d80e04cf24ec5eaa1a2b50aa2f90795f",
+  "frames_per_path": 1024,
+  "scenarios": [
+    "bee",
+    "moth",
+    "boss left",
+    "boss right"
+  ],
+  "fixture_sha256": "12ca77291b3c0d0ea3b5dac63acb5b2cf018e7495349f0cae1dca7763b916c4c",
+  "harness_sha256": "25748df68a34d3cfb4cff8cb43f69e55238d89863ef507bd590da3d9b25567c3",
+  "reference_modified": false,
+  "limitations": "Isolated fixed-formation sorties, no bombing or object-state task. Capture, clone and FE paths are not covered. Only the active bit of motion.flags is compared because C incorrectly clears other bits at FF termination."
+}

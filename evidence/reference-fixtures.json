@@ -1,0 +1,77 @@
+{
+  "reference": "https://github.com/neiderm/arcade",
+  "commit": "248be0d9d80e04cf24ec5eaa1a2b50aa2f90795f",
+  "compiler": "Apple clang version 14.0.3 (clang-1403.0.22.14.1)",
+  "harness_sha256": "429e209f8064f638f47a6663f989a980853b0796eff04f2c6c57da37a2bccd35",
+  "inputs": [
+    {
+      "file": "galag.c",
+      "sha256": "cba654c4c55b843c985177a01aab14fb87a7d8d0bf5586c957d6f8fdbdb3abdb"
+    },
+    {
+      "file": "galag.h",
+      "sha256": "6a86792686b0dfcf3382702b6918725717265a330d04a0a4014185485eba334a"
+    },
+    {
+      "file": "game_ctrl.c",
+      "sha256": "a18bc7ea63080f2abb7b8feb5cd9c458c9f6803229bb434f4701c6d63d5a4d1e"
+    },
+    {
+      "file": "gg1-2.c",
+      "sha256": "97eed7d47b37198ae5449aee0937b4c2d5e12c15bd17992edbf8e906853b08f8"
+    },
+    {
+      "file": "gg1-2_1700.c",
+      "sha256": "6723457a1763e22e8527831a3567b05e7ba6cb5c6ce614aebd07d467ab8a5ef5"
+    },
+    {
+      "file": "gg1-3.c",
+      "sha256": "f0acce7edc7f04030cd877a6e7fad98634308f29dfae11aa9045c1fc52bae57b"
+    },
+    {
+      "file": "gg1-4.c",
+      "sha256": "803158aee7fbfd24bab805ded2022c5a55949a8d8193a0e39f86ee0c8d60e4b8"
+    },
+    {
+      "file": "gg1-5.c",
+      "sha256": "c3d26654f7cbda663c675afad6500c85e3bf638eac79c2bdddc079365035e95e"
+    },
+    {
+      "file": "gg1-7.c",
+      "sha256": "9990db886fe5d1ba2fb8d8ff60999b5b09f9c821d8b0409dcb17be38df6ef791"
+    },
+    {
+      "file": "new_stage.c",
+      "sha256": "6ce9fc91b50970c4c2442afb60126b2179de44848eb31ed936af2292508b8782"
+    },
+    {
+      "file": "pe_string.c",
+      "sha256": "6403f58549d6cff9d41ec8ba11824f6f49badb4328ff052f25b8e0d58c6d3d1d"
+    },
+    {
+      "file": "task_man.c",
+      "sha256": "083b7ff88a1c5f6bccf1c8b756072f0f866a574cb2036ab173612139f3b0055c"
+    },
+    {
+      "file": "task_man.h",
+      "sha256": "da7b9ac3417198d94e3f82eaf9853352d64c989568e1ae89c0a811b8ffb4c045"
+    }
+  ],
+  "fixtures": [
+    {
+      "file": "reference-entrance.bin",
+      "sha256": "9ec42a9afac64172d0f5a6525a7b36f389ad5ae86cb51ab1eb9aabf05bf6be52",
+      "bytes": 32768
+    },
+    {
+      "file": "reference-arithmetic.bin",
+      "sha256": "089b945afebcd615a4352039c5cd289fe926113d21005180798c05fa00827135",
+      "bytes": 24
+    }
+  ],
+  "entrance_frames": 4096,
+  "division_cases": 16777216,
+  "home_angle_cases": 65536,
+  "coordinate_step_cases": 65536,
+  "limitations": "Reference comparison covers the supported stage-one slice and arithmetic, not a complete hardware/gameplay comparison."
+}

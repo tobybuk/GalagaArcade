@@ -1,0 +1,113 @@
+{
+  "milestone": "Completed functional Rust browser port; original-revision checks passed, hardware fidelity limits documented",
+  "validated_on": "2026-11-20",
+  "native_tests": {
+    "passed": 96,
+    "failed": 0,
+    "profile": "release",
+    "log": "evidence/native-tests.txt"
+  },
+  "webassembly": {
+    "release_build": "passed",
+    "browser_module_checks": "passed",
+    "bytes": 137028,
+    "sha256": "98997843162e69e5461707a4022a95f65b4440f70a54b4002e5db1d555206b41"
+  },
+  "browser_preview": {
+    "current_validation": "Local HTTP in-app browser: visible cold-start route, persisted original DIP settings/free play, viewport-fullscreen fallback and clean console; actual Wasm Node runs both players through recycle, combat, PCM/raster and standalone payload.",
+    "screenshot": "evidence/browser-current.jpg",
+    "audio_limit": "PCM output checked; audible equivalence against original recording not yet checked."
+  },
+  "standalone_package": {
+    "embedded_module_matches_release": true,
+    "external_script_required": false,
+    "external_asset_requests_required": false,
+    "direct_file_browser_test": "Not performed by the agent; browser automation disallows file URLs. Embedded payload and absence of fetch checked by Node.",
+    "packaged_module_check": "passed after final HTML update"
+  },
+  "reference_assembly": {
+    "regions": 59,
+    "bytes": 16473,
+    "scope": "Research assembly mapped exactly to supplied ROM bytes; not a whole-game execution oracle"
+  },
+  "reference_entrance_completed_frames": 896,
+  "reference_entrance_fixture_frames_retained": 4096,
+  "common_combat_reference_cases": 655360,
+  "arithmetic_cases": {
+    "division": 16777216,
+    "home_angle": 65536,
+    "coordinate_step": 65536
+  },
+  "unported": [],
+  "common_sortie_reference_frames": {
+    "paths": 4,
+    "frames_per_path": 1024,
+    "total": 4096
+  },
+  "production_no_input": "Original lives/results/recycle return to attract; both players consume six fighters. Ordinary-input player also clears challenge three and enters initials.",
+  "original_gameplay_reference": "Prepared-entry independent C common paths only; new executive/stage/sound/circuit tests are assembly-derived, not a complete original-ROM oracle.",
+  "controller_listings": {
+    "51xx": 1024,
+    "54xx": 1024,
+    "scope": "Complete exact static reassembly, direct source functions in runtime"
+  },
+  "hardware_raster_reference": {
+    "frames": 1024,
+    "pixels_per_frame": 64512,
+    "source": "evidence/video-oracle.c",
+    "scope": "Separate C hardware reference; not original-game scanline/interprocessor timing"
+  },
+  "browser_play": {
+    "ordinary_inputs": true,
+    "memory_or_life_changes": false,
+    "stages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "score": 26300,
+    "hits": 242,
+    "challenge_round": 3,
+    "bonus_reserve_awarded": true,
+    "initials": [
+      27,
+      30,
+      28
+    ],
+    "initials_name": "RUS",
+    "returned_to_attract": true,
+    "capture_rescue_join": {
+      "frames": 5001,
+      "beam": true,
+      "pull": true,
+      "transfer": true,
+      "rescue": true,
+      "joined": true
+    }
+  },
+  "environment_boundaries": [
+    "Physical destructive RAM/checksum work replaced by allocation/importer checks; original successful display/wait route retained",
+    "Optional editor logic translated/tested; absent external device is not invented in the browser"
+  ],
+  "unresolved_fidelity": [
+    "Exact whole-board refresh phase; host monotonic phase is provisional",
+    "Foreground waits resumed on board periods; instruction/scanline interleaving unverified",
+    "Exact 51xx/06xx phase and 54xx mid-section interrupt/store ordering unverified",
+    "Original-recording analogue/audio equivalence and original-game within-frame raster comparison unverified"
+  ],
+  "common_sound_reference": {
+    "requests": 17,
+    "nmis": 17408,
+    "reference_modified": false,
+    "volume_registers_excluded": [
+      21,
+      26,
+      31
+    ],
+    "limits": "C volume bugs and missing/revision-specific handlers excluded; assembly-derived volume checks cover 768 counter/type combinations."
+  },
+  "browser_runs": "evidence/browser-runs.json"
+}

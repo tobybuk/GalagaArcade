@@ -1,0 +1,10 @@
+{
+  "firmware": "51xx.bin",
+  "bytes": 1024,
+  "listing_entries": 969,
+  "sha256": "bd1c1fddde888550611fdb4ae29bc06d8ac2d2c6a2771ebbff243ec109caf26e",
+  "match": true,
+  "listing_sha256": "f9fcdc5d97ff84f8e1f983943b03ed568fff3f627a9cc6b87744ab92d2c0a4b3",
+  "scope": "Static reassembly establishes exact firmware mapping, not Rust execution/output equivalence.",
+  "runtime": "Direct reconstructed coin/filter/start/control/command functions; no firmware byte array, CPU registers or opcode execution."
+}

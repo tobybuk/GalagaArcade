@@ -1,0 +1,229 @@
+    Finished `release` profile [optimized] target(s) in 0.12s
+     Running unittests src/lib.rs (work/build/galaga-rust/release/build/galaga-reconstructed/4187b4cecbd78ebf/out/galaga_reconstructed-4187b4cecbd78ebf)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/bin/trace.rs (work/build/galaga-rust/release/build/galaga-reconstructed/91517a4ec3ceda44/out/trace-91517a4ec3ceda44)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/attacks_lives.rs (work/build/galaga-rust/release/build/galaga-reconstructed/028dc1cc97d7d162/out/attacks_lives-028dc1cc97d7d162)
+
+running 10 tests
+test bomb_notification_alias_and_fighter_explosion_use_actual_ram_banks ... ok
+test bomb_spawn_restores_rev_b_control_and_uses_pointer_low_byte ... ok
+test boss_queues_two_escorts_and_uses_original_score_attributes ... ok
+test capture_toggle_and_captured_fighter_follow_state_bytes ... ok
+test dive_turning_point_keeps_zero_duration_until_original_y_test ... ok
+test fighter_hit_resumes_at_original_rocket_scan_tail ... ok
+test launch_limits_and_bonus_bee_exclusion_are_original ... ok
+test object_bounds_read_copied_sprite_registers_before_pending_buffer ... ok
+test original_life_flow_waits_and_respawns_without_resetting_enemies ... ok
+test text_and_ratio_preserve_original_digits_and_tile_walk ... ok
+
+test result: ok. 10 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running tests/capture.rs (work/build/galaga-rust/release/build/galaga-reconstructed/5bfc305acf5c9905/out/capture-5bfc305acf5c9905)
+
+running 4 tests
+test beam_capture_connects_then_transitions_to_original_captured_task ... ok
+test rescued_ship_lands_and_joins_at_original_positions ... ok
+test rev_b_capture_delays_transfer_until_text_expires_and_copies_controls ... ok
+test spin_uses_original_orientation_cycle_and_upright_stop ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/combat_reference.rs (work/build/galaga-rust/release/build/galaga-reconstructed/ab7294202673656b/out/combat_reference-ab7294202673656b)
+
+running 1 test
+test common_rocket_paths_match_unmodified_reference_for_every_target_coordinate ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.06s
+
+     Running tests/combat_score_flow.rs (work/build/galaga-rust/release/build/galaga-reconstructed/d966ef19cad4c627/out/combat_score_flow-d966ef19cad4c627)
+
+running 12 tests
+test hit_counter_decrements_only_the_original_low_byte ... ok
+test green_boss_first_hit_changes_colour_and_consumes_y_only ... ok
+test moving_boss_uses_score_attribute_bytes_and_bonus_bitmap_lifetime ... ok
+test original_explosion_sequence_runs_through_notification_and_jump_table ... ok
+test original_sprite_copy_halves_preserve_order_and_buffer_delay ... ok
+test rocket_312_boundary_is_exclusive_as_in_the_rom ... ok
+test scheduler_uses_original_vectors_and_saved_step_when_task_disables_itself ... ok
+test score_ram_carries_and_high_score_follow_the_original_writes ... ok
+test score_is_consumed_by_background_runner_before_notification_task ... ok
+test two_rockets_cannot_award_the_same_fatal_hit_twice ... ok
+test stationary_and_flying_points_follow_original_colour_factors ... ok
+test bullet_rectangle_preserves_unsigned_carry_boundaries ... ok
+
+test result: ok. 12 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.10s
+
+     Running tests/configuration.rs (work/build/galaga-rust/release/build/galaga-reconstructed/90dd20fad3fdc047/out/configuration-90dd20fad3fdc047)
+
+running 3 tests
+test original_dip_wiring_decodes_all_life_bonus_coin_and_rank_selections ... ok
+test production_boot_uses_original_configuration_and_rev_b_fighters_text ... ok
+test original_freeze_switch_stops_both_task_kernels_and_frame_dividers ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running tests/flight_reference.rs (work/build/galaga-rust/release/build/galaga-reconstructed/2fc6d87cebedec2c/out/flight_reference-2fc6d87cebedec2c)
+
+running 1 test
+test common_sorties_match_unmodified_c_reference_each_frame ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/highscore.rs (work/build/galaga-rust/release/build/galaga-reconstructed/c93877f4adc69327/out/highscore-c93877f4adc69327)
+
+running 5 tests
+test initials_commit_uses_original_three_positions_and_frame_reset ... ok
+test initials_selection_keeps_original_space_dot_and_letter_wrap ... ok
+test equal_score_does_not_displace_original_fifth_place ... ok
+test initials_timeout_and_coin_in_commit_remaining_displayed_characters ... ok
+test original_high_score_insertions_preserve_above_rows_and_shift_below ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/input51.rs (work/build/galaga-rust/release/build/galaga-reconstructed/e4245861bba5347b/out/input51-e4245861bba5347b)
+
+running 6 tests
+test both_coin_slots_fractions_service_credit_decimal_carry_and_saturation ... ok
+test command_parameter_direction_raw_switches_and_fourth_read_match_firmware ... ok
+test original_fire_edge_and_held_bits_and_independent_cocktail_panel_are_retained ... ok
+test start_priorities_disable_until_command_and_freeplay_debit_is_published_once ... ok
+test coin_and_button_filters_require_the_original_four_sample_pattern ... ok
+test game_uses_controller_filter_and_previous_interrupt_input_transfer ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running tests/machine.rs (work/build/galaga-rust/release/build/galaga-reconstructed/f388ce290c4ceb19/out/machine-f388ce290c4ceb19)
+
+running 6 tests
+test game_recycle_keeps_top5_and_accumulates_original_bcd_machine_totals ... ok
+test original_credit_task_renders_bcd_and_preserves_coin_sound_slot ... ok
+test attract_fighter_wait_resumes_the_same_irq_call_without_replaying_sprite_setup ... ok
+test production_cold_boot_keeps_original_test_configuration_and_crosshatch_route ... ok
+test boot_credit_debit_and_original_opening_delays_reach_stage_one ... ok
+test all_original_attract_states_and_demonstrations_cycle_without_stopping ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 4.48s
+
+     Running tests/noise54.rs (work/build/galaga-rust/release/build/galaga-reconstructed/4bb2362adf7ed838/out/noise54-4bb2362adf7ed838)
+
+running 7 tests
+test firmware_cycle_metadata_matches_original_straight_line_and_gated_paths ... ok
+test original_noise_configuration_stores_reversed_nibbles_and_waits_for_all_bytes ... ok
+test original_type_a_envelope_uses_borrow_chain_zero_phase_skip_and_ror_decay ... ok
+test original_type_b_has_its_distinct_silent_phase_and_decay_period ... ok
+test noise_feedback_retains_original_five_nibble_shift_and_feedback ... ok
+test original_type_c_keeps_both_carry_additions_and_direct_volume_command ... ok
+test translated_noise_drives_original_filters_and_decay_to_silence ... ok
+
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.06s
+
+     Running tests/players.rs (work/build/galaga-rust/release/build/galaga-reconstructed/f98cfde5ee2040bf/out/players-f98cfde5ee2040bf)
+
+running 3 tests
+test player_exchange_preserves_original_packed_enemy_format_and_task_tables ... ok
+test formation_retreat_and_return_keep_original_126_steps_and_ninth_bit ... ok
+test original_two_player_game_uses_both_sets_of_fighters_then_recycles ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 2.58s
+
+     Running tests/reconstruction.rs (work/build/galaga-rust/release/build/galaga-reconstructed/3f95d45313c42bbc/out/reconstruction-3f95d45313c42bbc)
+
+running 7 tests
+test fighter_keeps_original_alternating_steps_and_unclamped_limits ... ok
+test first_stage_queue_preserves_original_order_and_markers ... ok
+test integer_motion_keeps_wraparound_and_all_quadrants ... ok
+test rockets_keep_original_two_slots_step_and_screen_limits ... ok
+test stage_parameters_follow_assembly_boundary_and_challenge_rule ... ok
+test entrance_matches_reference_before_original_sortie_transition ... ok
+test arithmetic_matches_independent_reference_exhaustively ... ok
+
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.50s
+
+     Running tests/revision_b.rs (work/build/galaga-rust/release/build/galaga-reconstructed/b7e654bfe9787761/out/revision_b-b7e654bfe9787761)
+
+running 3 tests
+test formation_coordinate_carry_retains_original_ninth_bit ... ok
+test rev_b_bomb_updater_releases_invalid_objects ... ok
+test reserve_icons_use_rev_b_eight_slots_and_preserve_stage_token_tiles ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/service.rs (work/build/galaga-rust/release/build/galaga-reconstructed/43a3678afdb166dc/out/service-43a3678afdb166dc)
+
+running 5 tests
+test original_external_editor_keeps_fifo_nibble_order_target_access_and_selection ... ok
+test unused_dip_follows_original_sub_reset_instead_of_an_untranslated_stop ... ok
+test service_switch_runs_original_sound_selection_and_returns_through_crosshatch ... ok
+test service_original_fire_and_5r_6l_3r_7l_sequence_draws_supplied_easter_egg ... ok
+test service_machine_totals_keep_original_complements_points_and_timed_erase ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.34s
+
+     Running tests/sound.rs (work/build/galaga-rust/release/build/galaga-reconstructed/313ecb4940e01fd5/out/sound-313ecb4940e01fd5)
+
+running 6 tests
+test original_coin_count_repeats_and_top_score_sound_transitions_to_exit_tune ... ok
+test original_voice_envelopes_masks_and_browser_wave_output_are_preserved ... ok
+test rev_b_ship_hit_skips_lower_priority_themes_and_uses_original_clear_ranges ... ok
+test supplied_envelope_branches_use_counter_complement_and_subtract_ten_before_negation ... ok
+test hardware_star_clock_is_stationary_at_seven_and_does_not_advance_on_redraw ... ok
+test all_original_sound_requests_run_and_single_shot_themes_finish ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running tests/sound_reference.rs (work/build/galaga-rust/release/build/galaga-reconstructed/7330c6d354fd32fe/out/sound_reference-7330c6d354fd32fe)
+
+running 1 test
+test common_sound_state_frequency_and_wave_match_independently_compiled_c_each_nmi ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+
+     Running tests/sprite_control.rs (work/build/galaga-rust/release/build/galaga-reconstructed/010d0f4510d5db0f/out/sprite_control-010d0f4510d5db0f)
+
+running 6 tests
+test enabled_original_formation_tasks_do_not_depend_on_presentation_flags ... ok
+test original_fire_checks_odd_control_bit_two_before_any_missile_stores ... ok
+test hardware_wrap_renders_visible_double_height_sprite_even_when_position_byte_is_zero ... ok
+test original_motion_and_bomb_output_replace_only_odd_control_bit_zero ... ok
+test original_sprite_copy_and_formation_store_preserve_full_control_byte ... ok
+test rev_b_capture_copies_the_full_control_byte_and_landing_tests_the_full_byte ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/stages.rs (work/build/galaga-rust/release/build/galaga-reconstructed/cc13def56a93abfc/out/stages-cc13def56a93abfc)
+
+running 9 tests
+test challenge_marker_waits_for_original_timer_and_reloads_hit_eight_counter ... ok
+test challenge_classes_and_score_attributes_follow_original_rotations ... ok
+test refresh_lookup_uses_rom_page_and_both_original_samples ... ok
+test original_challenge_awards_each_hit_or_the_perfect_bonus ... ok
+test stage_counter_wrap_uses_original_rotate_and_adjacent_rom_reads ... ok
+test stage_icons_keep_original_eight_frame_wait_and_rev_b_reserve_protection ... ok
+test transient_class_and_object_remap_follow_original_launch_branches ... ok
+test all_stage_rank_wave_tables_keep_original_fixed_objects_and_pair_structure ... ok
+test a_challenge_round_runs_all_five_waves_and_advances_to_next_stage ... ok
+
+test result: ok. 9 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.86s
+
+     Running tests/video.rs (work/build/galaga-rust/release/build/galaga-reconstructed/334472bea458f983/out/video-334472bea458f983)
+
+running 1 test
+test framebuffer_matches_independent_hardware_renderer_at_boundaries_and_control_combinations ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.22s
+
+   Doc-tests galaga_reconstructed
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

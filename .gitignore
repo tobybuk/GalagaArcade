@@ -1,0 +1,4 @@
+/target/
+/dist/galaga.wasm
+__pycache__/
+

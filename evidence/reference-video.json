@@ -1,0 +1,9 @@
+{
+  "cases": 1024,
+  "pixels_per_case": 64512,
+  "channels": "RGBA",
+  "source_sha256": "d3c37b278cd2111f81012eea9a569d065d76061a8f2d8d146f7139324d746505",
+  "reference_sha256": "95ba618f8e28335292c8b3bef83c0bc8580b7d2e9faa7e1ac38372738261b8dd",
+  "authority": "MAME Galaga video/palette hardware documentation, BSD-3-Clause; supplied graphics and PROMs",
+  "scope": "Independent C hardware renderer; coordinates, size/flips, clipping, PROM colours, tile addressing/layers and star colours. Not original game execution or scanline/interprocessor timing."
+}

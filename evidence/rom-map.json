@@ -1,0 +1,569 @@
+{
+  "set": "Galaga (Namco rev. B)",
+  "archive_sha256": "f58992060d98e075605e2fd2d6e285862395018d8234a2a95ab717f1eb06a002",
+  "roms": [
+    {
+      "name": "51xx.bin",
+      "bytes": 1024,
+      "crc32": "c2f57ef8",
+      "sha256": "bd1c1fddde888550611fdb4ae29bc06d8ac2d2c6a2771ebbff243ec109caf26e"
+    },
+    {
+      "name": "54xx.bin",
+      "bytes": 1024,
+      "crc32": "ee7357e0",
+      "sha256": "85c8570b91342ab729bd775c500a3e7245d655a0bab2fed6356e37ea388848e8"
+    },
+    {
+      "name": "gg1_1b.3p",
+      "bytes": 4096,
+      "crc32": "ab036c9f",
+      "sha256": "9ade02d66a82d9de7bc890abc035baf4b386ef4f70a600f66f6f5276d6cbb82e"
+    },
+    {
+      "name": "gg1_2b.3m",
+      "bytes": 4096,
+      "crc32": "d9232240",
+      "sha256": "1525f3ef532df040720e8a21accd3930bab94f807d0b873932e150c4c3d0fdde"
+    },
+    {
+      "name": "gg1_3.2m",
+      "bytes": 4096,
+      "crc32": "753ce503",
+      "sha256": "4b0e52ec925d0db9232104bb728f68f2c3969bd125f75f100c4e59bb6780edff"
+    },
+    {
+      "name": "gg1_4b.2l",
+      "bytes": 4096,
+      "crc32": "499fcc76",
+      "sha256": "7c7f796872e1c0e70be2c07e0a1c40b3f1d3a21bcd7018632700a98d29087064"
+    },
+    {
+      "name": "gg1_5b.3f",
+      "bytes": 4096,
+      "crc32": "bb5caae3",
+      "sha256": "a0b63c7983009606a19b7c2e48697a0f48669f977a1a6c21d5ae86f9d96b2620"
+    },
+    {
+      "name": "gg1_7b.2c",
+      "bytes": 4096,
+      "crc32": "d016686b",
+      "sha256": "f6b24ea6d3ece28350763f5f5550a1024d0ca23b9b85e5772994ab0558c8cdc1"
+    },
+    {
+      "name": "gg1_9.4l",
+      "bytes": 4096,
+      "crc32": "58b2f47c",
+      "sha256": "5e68d9567938d80ebba91168f511b1952dba19658a841b73811c947fd6649f98"
+    },
+    {
+      "name": "gg1_10.4f",
+      "bytes": 4096,
+      "crc32": "dd6f1afc",
+      "sha256": "e8a614ace39650e743d2a4c4641c751eb958276215e2d68983c90a6cbc50fe47"
+    },
+    {
+      "name": "gg1_11.4d",
+      "bytes": 4096,
+      "crc32": "ad447c80",
+      "sha256": "550119a20c3d9240bccefb6a0af2c3d00d3748dad7596bc8bab3c641126a53b7"
+    },
+    {
+      "name": "prom-1.1d",
+      "bytes": 256,
+      "crc32": "7a2815b4",
+      "sha256": "079f5fd72fc52bfa9354927ecea9aaba240b1527f1a5951ee15975286b166b3b"
+    },
+    {
+      "name": "prom-2.5c",
+      "bytes": 256,
+      "crc32": "77245b66",
+      "sha256": "8c34002652e587aa19a77bff9040d870af18b4b2fe5c5f0ed962899386e0e751"
+    },
+    {
+      "name": "prom-3.1c",
+      "bytes": 256,
+      "crc32": "4a04bb6b",
+      "sha256": "a3e80d099f7bcbfdd9a64239bda2e5e916c696d5dfb9294053bae57c46e184b1"
+    },
+    {
+      "name": "prom-4.2n",
+      "bytes": 256,
+      "crc32": "59b6edab",
+      "sha256": "6534ac170c6a8b0f567179bb4f24d4ab8337e3561e5f229a7bd9b128d29fed4f"
+    },
+    {
+      "name": "prom-5.5n",
+      "bytes": 32,
+      "crc32": "54603c6b",
+      "sha256": "5c2d0637794badb9a214324da3fd9ebbcd282a5c0f3a778fe6219fdba1c3b91a"
+    }
+  ],
+  "extracted_data": [
+    {
+      "name": "FORMATION_ORIGIN",
+      "cpu": "main",
+      "start": "0x1321",
+      "end_exclusive": "0x1331",
+      "bytes": 16,
+      "sha256": "e802b44c7d60da8f23415e3ad96970557e56ced13f4d9a5c0e779d51f1a8f5ab"
+    },
+    {
+      "name": "FORMATION_ORDINALS",
+      "cpu": "sub",
+      "start": "0x0100",
+      "end_exclusive": "0x0160",
+      "bytes": 96,
+      "sha256": "b37cc10d63ec0356739700705cc2282a800918f76202c5c601aeab84d1e66588"
+    },
+    {
+      "name": "EXPANSION_BITMAPS",
+      "cpu": "main",
+      "start": "0x1e6a",
+      "end_exclusive": "0x1eaa",
+      "bytes": 64,
+      "sha256": "9f08cd5733593b99fa04a11ce3baa4266f9a5877aff49c3f580d3ea9f91a73eb"
+    },
+    {
+      "name": "STAGE_PARAMETERS",
+      "cpu": "main",
+      "start": "0x2c6d",
+      "end_exclusive": "0x2e75",
+      "bytes": 520,
+      "sha256": "c8857e35da417c4bfcdbbb8b72c836d5fc4fade349520f4b22882c3b34744b5b"
+    },
+    {
+      "name": "STAGE_PARAMETER_WRAP_TAIL",
+      "cpu": "main",
+      "start": "0x2e75",
+      "end_exclusive": "0x2ef6",
+      "bytes": 129,
+      "sha256": "c458df9bcd770f7a870b3bf6fa4c6f7c19d03c5015e40b0d8dbede68a0764e54"
+    },
+    {
+      "name": "ENTRANCE_TOP",
+      "cpu": "sub",
+      "start": "0x001d",
+      "end_exclusive": "0x0034",
+      "bytes": 23,
+      "sha256": "e6e994642f316c19f01030a1480890b1ec1060b677d90ce7cb2a4aeb619d147f"
+    },
+    {
+      "name": "ENTRANCE_SIDE",
+      "cpu": "sub",
+      "start": "0x0067",
+      "end_exclusive": "0x0084",
+      "bytes": 29,
+      "sha256": "afae4218ff1238ec5db79e53878f1ecf2f56ca7bdbfbf7fec7cfef68c802fb83"
+    },
+    {
+      "name": "FLIGHT_TRANSIENT_TOP",
+      "cpu": "sub",
+      "start": "0x004b",
+      "end_exclusive": "0x0066",
+      "bytes": 27,
+      "sha256": "474a2b06a9a1790f184ebb67a68da812031f7ccb23e5a8996709e6740fce28d8"
+    },
+    {
+      "name": "FLIGHT_EARLY",
+      "cpu": "sub",
+      "start": "0x0084",
+      "end_exclusive": "0x00f8",
+      "bytes": 116,
+      "sha256": "43f821f89b3895b494abb113d94cb733fecf94e300cd8a58806f1530284cb894"
+    },
+    {
+      "name": "FLIGHT_PATTERNS",
+      "cpu": "sub",
+      "start": "0x0160",
+      "end_exclusive": "0x0513",
+      "bytes": 947,
+      "sha256": "73074d90a31e09e3cc60ceae39127288a824ec8dd332d176ed7e65848ee5f330"
+    },
+    {
+      "name": "BOSS_SORTIE_ATTRIBUTES",
+      "cpu": "main",
+      "start": "0x1d03",
+      "end_exclusive": "0x1d09",
+      "bytes": 6,
+      "sha256": "9d699970da593bec5aeb1fda65747914bde71121bf684f1114deeae3d17db472"
+    },
+    {
+      "name": "BOSS_ESCORT_IDS",
+      "cpu": "main",
+      "start": "0x1d32",
+      "end_exclusive": "0x1d38",
+      "bytes": 6,
+      "sha256": "a533dc79553bbc4f3618ade66f80462e2c2beaa561f28cb41c42fe81f146deb6"
+    },
+    {
+      "name": "TEXT_DATA",
+      "cpu": "main",
+      "start": "0x13f1",
+      "end_exclusive": "0x160c",
+      "bytes": 539,
+      "sha256": "0da4dd517a95661926ca4f1afe6f43416a79d6b65a6093d05a22b20916bdf05b"
+    },
+    {
+      "name": "TOP5_TEXT_LAYOUT",
+      "cpu": "main",
+      "start": "0x327f",
+      "end_exclusive": "0x32ed",
+      "bytes": 110,
+      "sha256": "87de2376b9001ecf64c352b03308539bb4687d02a5e3bb1a731b59911dd640c9"
+    },
+    {
+      "name": "HEROES_TEXT",
+      "cpu": "main",
+      "start": "0x3345",
+      "end_exclusive": "0x336c",
+      "bytes": 39,
+      "sha256": "3ddaaec70a1678aea66e49a035f30b4fcf193c836a84e93f6eace3b59d3302e2"
+    },
+    {
+      "name": "TOP5_HIGHLIGHT_ROWS",
+      "cpu": "main",
+      "start": "0x3197",
+      "end_exclusive": "0x31a1",
+      "bytes": 10,
+      "sha256": "2860abf6559406f3f2311d997f674d1eff00d2878b99b35b73ca7e18295dd737"
+    },
+    {
+      "name": "TOP5_NAME_SHIFT_LENGTHS",
+      "cpu": "main",
+      "start": "0x31a1",
+      "end_exclusive": "0x31a6",
+      "bytes": 5,
+      "sha256": "9c3a4e99bd79a65f71850404f855b0f7fd478c9b9830aeafe528dd867b94757f"
+    },
+    {
+      "name": "TOP5_SCORE_POINTERS",
+      "cpu": "main",
+      "start": "0x31ed",
+      "end_exclusive": "0x31f7",
+      "bytes": 10,
+      "sha256": "b9133dac98fe0fc939a0c16617ead54d9d498de5042499fde054e9e6b673a83d"
+    },
+    {
+      "name": "TOP5_INITIAL_NAME_CHARS",
+      "cpu": "main",
+      "start": "0x02bf",
+      "end_exclusive": "0x02c4",
+      "bytes": 5,
+      "sha256": "82624c72efe0fd6f8dadd1bd454e9bee1ad15ea42ecb5d5fe4bf5fdb7d1be9bb"
+    },
+    {
+      "name": "BONUS_SHIP_TILES",
+      "cpu": "main",
+      "start": "0x0452",
+      "end_exclusive": "0x045e",
+      "bytes": 12,
+      "sha256": "ba75f0a5183c88d4e4b9d75552a990cbcaf1b6cb7e3c0441acc5bebde633ffd3"
+    },
+    {
+      "name": "CREDIT_TEXT",
+      "cpu": "main",
+      "start": "0x09ca",
+      "end_exclusive": "0x09d9",
+      "bytes": 15,
+      "sha256": "6d6350a05bf47dddc4e43c2bcbf83c924d085768b7accea3d93775243376beb0"
+    },
+    {
+      "name": "DEMO_POST_CAPTURE",
+      "cpu": "main",
+      "start": "0x181f",
+      "end_exclusive": "0x1840",
+      "bytes": 33,
+      "sha256": "dc48f02aa8384db13186fe3eb2a89f5e4d3078ad78f5dbcd546d62cc7341d21d"
+    },
+    {
+      "name": "DEMO_COMBAT",
+      "cpu": "main",
+      "start": "0x1887",
+      "end_exclusive": "0x18ac",
+      "bytes": 37,
+      "sha256": "beb3c2fce7e5c9ee65b7b8782fe2b3cd3d311fff94b01452457fd226095a23f9"
+    },
+    {
+      "name": "DEMO_TRAINING",
+      "cpu": "main",
+      "start": "0x1928",
+      "end_exclusive": "0x1940",
+      "bytes": 24,
+      "sha256": "81a1ae51a352cfc966f462649ab992945646db5acf31e55e1f44d58bb0ce5deb"
+    },
+    {
+      "name": "ATTRACT_SPRITES",
+      "cpu": "main",
+      "start": "0x195c",
+      "end_exclusive": "0x1984",
+      "bytes": 40,
+      "sha256": "e6583f5634f9c8c28768bc3232461a343562901eefe414b80a783984121cf664"
+    },
+    {
+      "name": "SOUND_DATA",
+      "cpu": "sound",
+      "start": "0x06da",
+      "end_exclusive": "0x0f5f",
+      "bytes": 2181,
+      "sha256": "25c9456a3022addfaf264663902a243a3c90d1ed6b3119ca4f99122b730ea57a"
+    },
+    {
+      "name": "NOISE_INITIAL_PARAMETERS",
+      "cpu": "main",
+      "start": "0x35b3",
+      "end_exclusive": "0x35bd",
+      "bytes": 10,
+      "sha256": "62bfc4769281d548ff3f1433f8e0c783d64bcf88119fe55111c3deda98f30a93"
+    },
+    {
+      "name": "NOISE_TRIGGER_COMMANDS",
+      "cpu": "main",
+      "start": "0x0092",
+      "end_exclusive": "0x0096",
+      "bytes": 4,
+      "sha256": "84beda5d86bee5f1216777a64aa4590f66f139c4f2d220e38b7b9129cf99a23c"
+    },
+    {
+      "name": "CONFIGURATION_DATA",
+      "cpu": "main",
+      "start": "0x3a72",
+      "end_exclusive": "0x3b9f",
+      "bytes": 301,
+      "sha256": "a265b96829bbcd4aadb5e8bc3f3f4934e42e66fc9186aa730141d63e52962bea"
+    },
+    {
+      "name": "SERVICE_SOUND_DATA",
+      "cpu": "main",
+      "start": "0x3a51",
+      "end_exclusive": "0x3a6b",
+      "bytes": 26,
+      "sha256": "35598dc73af1c42e486e8596505d828bf8f2fb101f160c74154678f178c09d1c"
+    },
+    {
+      "name": "SERVICE_EASTER_EGG_DATA",
+      "cpu": "main",
+      "start": "0x378c",
+      "end_exclusive": "0x37f6",
+      "bytes": 106,
+      "sha256": "e95fead8828df751908de52c7487a7f1e832c9eac7ae9828b83446900ceb4762"
+    },
+    {
+      "name": "TRACTOR_BEAM_TILES",
+      "cpu": "main",
+      "start": "0x23a1",
+      "end_exclusive": "0x23dd",
+      "bytes": 60,
+      "sha256": "18991a33f5437cae89e6de2de50ec1d51a6314ab00470a6ccba534f510c64d7c"
+    },
+    {
+      "name": "COMBAT_STAGE_INDEX",
+      "cpu": "main",
+      "start": "0x26a8",
+      "end_exclusive": "0x26ec",
+      "bytes": 68,
+      "sha256": "7dbb8b9c3e29ac12f4a988d360a0d0a94556399c624978d43f1bd516052f08b8"
+    },
+    {
+      "name": "CHALLENGE_STAGE_INDEX",
+      "cpu": "main",
+      "start": "0x26ec",
+      "end_exclusive": "0x26f4",
+      "bytes": 8,
+      "sha256": "4c68c05d1b2978a6336dfb7f14891cd997da4679c3ea96f21ee82edcd07a1b9d"
+    },
+    {
+      "name": "COMBAT_STAGE_DATA",
+      "cpu": "main",
+      "start": "0x26f4",
+      "end_exclusive": "0x27de",
+      "bytes": 234,
+      "sha256": "daefc6fb07c54e234e1d6df084384a0f672696f5792d39d98ef9e5bf5e345661"
+    },
+    {
+      "name": "CHALLENGE_STAGE_DATA",
+      "cpu": "main",
+      "start": "0x27de",
+      "end_exclusive": "0x286e",
+      "bytes": 144,
+      "sha256": "4cf346496c7f52b375cb593b8795c1a9f94272c43bc36d04777b412f87d57dc6"
+    },
+    {
+      "name": "CHALLENGE_HIT_ATTRIBUTES",
+      "cpu": "main",
+      "start": "0x2900",
+      "end_exclusive": "0x2908",
+      "bytes": 8,
+      "sha256": "339757f12ff81cba15ee37a064e60fee3f283908c1bae7430bcddfc28619d0d5"
+    },
+    {
+      "name": "CHALLENGE_CLASSES",
+      "cpu": "main",
+      "start": "0x290e",
+      "end_exclusive": "0x2916",
+      "bytes": 8,
+      "sha256": "09dd0cb679939cbe7c338b19ae876e6209834f5f94f30a4946f2b4fc4e39d998"
+    },
+    {
+      "name": "ENTRANCE_VECTORS",
+      "cpu": "main",
+      "start": "0x2a3c",
+      "end_exclusive": "0x2a6c",
+      "bytes": 48,
+      "sha256": "de022511642b25036990090e907c05269676cb349529a74aa9f812e2654239ad"
+    },
+    {
+      "name": "FLIGHT_LATE",
+      "cpu": "sub",
+      "start": "0x0fda",
+      "end_exclusive": "0x0ffd",
+      "bytes": 35,
+      "sha256": "8852a504e1525a858fbcc6ad87145befc96f645c4ed8eaa153a0bb0d73e4a7bb"
+    },
+    {
+      "name": "BONUS_BEE_ATTRIBUTES",
+      "cpu": "main",
+      "start": "0x1b5f",
+      "end_exclusive": "0x1b65",
+      "bytes": 6,
+      "sha256": "60982e68eb100a3687d8f8d3873b5b50212b13ec1c0af7f5349a1f5fa22ea995"
+    },
+    {
+      "name": "BONUS_BEE_VECTORS",
+      "cpu": "main",
+      "start": "0x1b65",
+      "end_exclusive": "0x1b6b",
+      "bytes": 6,
+      "sha256": "061bdef7d60c572ea7f82dbae64e5db8c8047ffe3fef5409d02cf2113d8f039c"
+    },
+    {
+      "name": "REFRESH_SAMPLE_PAGE",
+      "cpu": "main",
+      "start": "0x0100",
+      "end_exclusive": "0x0200",
+      "bytes": 256,
+      "sha256": "3c7b7ed937d6d6e9a18ec99241ab6e6acb9427cdd360da2293931d64bbccce85"
+    },
+    {
+      "name": "STAGE_ONE_WAVES",
+      "cpu": "main",
+      "start": "0x26f4",
+      "end_exclusive": "0x2706",
+      "bytes": 18,
+      "sha256": "1f99a2efdf84182b7980e52741f78fab8639b1525162ef132c294c536aa2088d"
+    },
+    {
+      "name": "WAVE_OBJECT_IDS",
+      "cpu": "main",
+      "start": "0x286e",
+      "end_exclusive": "0x2896",
+      "bytes": 40,
+      "sha256": "acfd21eeda11d4a0fbacffd0ab1d4792a08cf627339a2274dd05f81ab7f8b4c1"
+    },
+    {
+      "name": "ENTRANCE_INITIALS",
+      "cpu": "main",
+      "start": "0x2a6c",
+      "end_exclusive": "0x2a90",
+      "bytes": 36,
+      "sha256": "c2fc8609bc7a0a310fc478b21f19f51a64bc24e0878e9da071102f02623ef52d"
+    },
+    {
+      "name": "MAIN_TASK_VECTORS",
+      "cpu": "main",
+      "start": "0x0096",
+      "end_exclusive": "0x00d6",
+      "bytes": 64,
+      "sha256": "02f9d2da219cf1d2269035ce31c34a43923bd572d358bd31c64d23c0e522b366"
+    },
+    {
+      "name": "SUB_TASK_VECTORS",
+      "cpu": "sub",
+      "start": "0x003b",
+      "end_exclusive": "0x004b",
+      "bytes": 16,
+      "sha256": "a14289747da2e0c2ce1e11fd429a4a3cc7dcb6d4a6ec477e10f41a82f4bf988a"
+    },
+    {
+      "name": "MAIN_TASK_DEFAULTS",
+      "cpu": "main",
+      "start": "0x125b",
+      "end_exclusive": "0x127b",
+      "bytes": 32,
+      "sha256": "c35bf8728a4a72f583f809c6e3d8e9c04fb80b05cc6d15edb1034f015c214fc0"
+    },
+    {
+      "name": "SCORE_FACTORS",
+      "cpu": "main",
+      "start": "0x07fb",
+      "end_exclusive": "0x080b",
+      "bytes": 16,
+      "sha256": "98b0749c69a51ca33c4b0b07a7447395cd7d62797fc81bda53bc70e83962cd77"
+    },
+    {
+      "name": "SCORE_INITIAL",
+      "cpu": "main",
+      "start": "0x0495",
+      "end_exclusive": "0x049e",
+      "bytes": 9,
+      "sha256": "ce67ec8d915acd51bd84e4544b7c4209e18d9da4d027051bf207d292ccc4c14b"
+    },
+    {
+      "name": "HEADER_TILES",
+      "cpu": "main",
+      "start": "0x00eb",
+      "end_exclusive": "0x00fc",
+      "bytes": 17,
+      "sha256": "7d3d40f1491cc23d19fbb8de0edb0071e061e7358cb4620e73aa2302c0cb733f"
+    },
+    {
+      "name": "HIGH_SCORE_INITIAL",
+      "cpu": "main",
+      "start": "0x02b9",
+      "end_exclusive": "0x02bf",
+      "bytes": 6,
+      "sha256": "d88535afb46d7fc1a575579924f166b2c770f5286754b058c2a7f8be59a39e37"
+    },
+    {
+      "name": "DRONE_LAUNCH_TIMERS",
+      "cpu": "main",
+      "start": "0x08cd",
+      "end_exclusive": "0x08eb",
+      "bytes": 30,
+      "sha256": "9d8990ec492ab527ebbdf9216db722f03bf7a3c343493031fc68ef31887aa462"
+    },
+    {
+      "name": "BOSS_LAUNCH_TIMERS",
+      "cpu": "main",
+      "start": "0x08eb",
+      "end_exclusive": "0x0909",
+      "bytes": 30,
+      "sha256": "1c3a4f27dbf38cbd60bcb99d8fac93251b3ce7fdce9e9a339c043656aa91cbc5"
+    },
+    {
+      "name": "BOMB_ENABLE_TIMERS",
+      "cpu": "main",
+      "start": "0x0909",
+      "end_exclusive": "0x0935",
+      "bytes": 44,
+      "sha256": "3e1afdcb23a51a0848f9d391f20f45a40749d92153e0093f76ee3c37db9d0967"
+    },
+    {
+      "name": "BOMBER_TIMER_READS",
+      "cpu": "main",
+      "start": "0x08cd",
+      "end_exclusive": "0x096d",
+      "bytes": 160,
+      "sha256": "3f8fb9abf8527d21c51b6e959a042f3e14160a2394d44e925081b0904119445d"
+    },
+    {
+      "name": "BOMB_CLASS_MASKS",
+      "cpu": "main",
+      "start": "0x2908",
+      "end_exclusive": "0x290e",
+      "bytes": 6,
+      "sha256": "98767355683db76dd22c9529159ebfc67d4dc60780212e85d34c96daa54cf3d9"
+    }
+  ],
+  "runtime_program_roms": []
+}

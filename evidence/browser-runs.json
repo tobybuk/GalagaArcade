@@ -1,0 +1,256 @@
+{
+  "module": {
+    "events": [],
+    "result": {
+      "passed": true,
+      "attractStates": 15,
+      "maximumScore": 3670,
+      "maximumHits": 40,
+      "stage": 1,
+      "checks": "Actual Wasm: startup, coins, both players, complete recycle, combat, edge input, PCM, raster and standalone payload"
+    }
+  },
+  "play": {
+    "events": [
+      {
+        "frame": 249,
+        "stage": 1,
+        "score": 0,
+        "reserves": 2
+      },
+      {
+        "frame": 2573,
+        "captured": true,
+        "capturedIndex": 3
+      },
+      {
+        "frame": 3769,
+        "stage": 2,
+        "score": 5000,
+        "reserves": 1
+      },
+      {
+        "frame": 6777,
+        "stage": 3,
+        "score": 9320,
+        "reserves": 1
+      },
+      {
+        "frame": 9081,
+        "stage": 4,
+        "score": 12920,
+        "reserves": 1
+      }
+    ],
+    "result": {
+      "stages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "maximumScore": 12920,
+      "hits": 107,
+      "frames": 9090,
+      "state": 3,
+      "captured": true,
+      "joined": false,
+      "beamSeen": true,
+      "pullSeen": true,
+      "transferSeen": true,
+      "rescueSeen": false,
+      "initialsEntered": false,
+      "initials": []
+    }
+  },
+  "capture": {
+    "events": [
+      {
+        "frame": 0,
+        "fighter": {
+          "x": 0,
+          "y": 0,
+          "state": 128,
+          "code": 6
+        },
+        "shots": 0,
+        "fire": 0,
+        "boss": 0,
+        "beam": 0,
+        "pull": 0,
+        "captureTask": 0,
+        "rescueTask": 0,
+        "reserves": 2,
+        "restart": 0,
+        "controls": 0,
+        "flying": 0,
+        "enemies": 3,
+        "capturedShip": null,
+        "carrier": null,
+        "carrierColour": null
+      },
+      {
+        "frame": 249,
+        "stage": 1,
+        "score": 0,
+        "reserves": 2
+      },
+      {
+        "frame": 2000,
+        "fighter": {
+          "x": 116,
+          "y": 297,
+          "state": 128,
+          "code": 6
+        },
+        "shots": 0,
+        "fire": 1,
+        "boss": 1,
+        "beam": 0,
+        "pull": 0,
+        "captureTask": 0,
+        "rescueTask": 0,
+        "reserves": 2,
+        "restart": 0,
+        "controls": 1,
+        "flying": 3,
+        "enemies": 40,
+        "capturedShip": null,
+        "carrier": null,
+        "carrierColour": null
+      },
+      {
+        "frame": 2765,
+        "captured": true,
+        "capturedIndex": 1
+      },
+      {
+        "frame": 4000,
+        "fighter": {
+          "x": 202,
+          "y": 297,
+          "state": 128,
+          "code": 6
+        },
+        "shots": 18,
+        "fire": 1,
+        "boss": 1,
+        "beam": 0,
+        "pull": 0,
+        "captureTask": 0,
+        "rescueTask": 0,
+        "reserves": 1,
+        "restart": 0,
+        "controls": 1,
+        "flying": 3,
+        "enemies": 34,
+        "capturedShip": {
+          "x": 151,
+          "y": 60,
+          "state": 1,
+          "code": 7
+        },
+        "carrier": {
+          "x": 151,
+          "y": 78,
+          "state": 1,
+          "code": 15
+        },
+        "carrierColour": 1
+      }
+    ],
+    "result": {
+      "stages": [
+        1
+      ],
+      "maximumScore": 2130,
+      "hits": 20,
+      "frames": 5001,
+      "state": 3,
+      "captured": true,
+      "joined": true,
+      "beamSeen": true,
+      "pullSeen": true,
+      "transferSeen": true,
+      "rescueSeen": true,
+      "initialsEntered": false,
+      "initials": []
+    }
+  },
+  "initials": {
+    "events": [
+      {
+        "frame": 249,
+        "stage": 1,
+        "score": 0,
+        "reserves": 2
+      },
+      {
+        "frame": 2573,
+        "captured": true,
+        "capturedIndex": 3
+      },
+      {
+        "frame": 3769,
+        "stage": 2,
+        "score": 5000,
+        "reserves": 1
+      },
+      {
+        "frame": 6777,
+        "stage": 3,
+        "score": 9320,
+        "reserves": 1
+      },
+      {
+        "frame": 9081,
+        "stage": 4,
+        "score": 12920,
+        "reserves": 1
+      },
+      {
+        "frame": 11577,
+        "stage": 5,
+        "score": 17350,
+        "reserves": 0
+      },
+      {
+        "frame": 13689,
+        "stage": 6,
+        "score": 21850,
+        "reserves": 1
+      },
+      {
+        "frame": 17178,
+        "initialsEntered": true,
+        "initialsRank": 1
+      }
+    ],
+    "result": {
+      "stages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "maximumScore": 26300,
+      "hits": 242,
+      "frames": 18357,
+      "state": 1,
+      "captured": true,
+      "joined": false,
+      "beamSeen": true,
+      "pullSeen": true,
+      "transferSeen": true,
+      "rescueSeen": false,
+      "initialsEntered": true,
+      "initials": [
+        27,
+        30,
+        28
+      ]
+    }
+  }
+}

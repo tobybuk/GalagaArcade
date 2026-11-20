@@ -1,0 +1,10 @@
+{
+  "firmware": "54xx.bin",
+  "bytes": 1024,
+  "listing_entries": 978,
+  "sha256": "85c8570b91342ab729bd775c500a3e7245d655a0bab2fed6356e37ea388848e8",
+  "match": true,
+  "listing_sha256": "51a294e72f9a13cf14e7e1610d0e7a627106f5e6160adc972864d57a0320bb24",
+  "scope": "Static reassembly establishes exact firmware mapping, not Rust execution/output equivalence.",
+  "runtime": "Direct reconstructed noise/envelope/command functions; no firmware byte array, CPU registers or opcode execution."
+}

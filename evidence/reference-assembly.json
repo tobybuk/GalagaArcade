@@ -1,0 +1,1349 @@
+{
+  "reference": "https://github.com/neiderm/arcade",
+  "commit": "248be0d9d80e04cf24ec5eaa1a2b50aa2f90795f",
+  "assembler": "ASxxxx 5.10",
+  "routines": [
+    {
+      "routine": "service executive, crosshatch and hidden-message data",
+      "bank": "main",
+      "bytes": 575,
+      "annotation_start": "0x35b5",
+      "rom_start": "0x35bf",
+      "rom_end_exclusive": "0x37fe",
+      "relocations": [
+        {
+          "annotation_operand": "0x35b6",
+          "old_target": "0x3b88",
+          "rom_target": "0x3b95"
+        },
+        {
+          "annotation_operand": "0x35bc",
+          "old_target": "0x37f4",
+          "rom_target": "0x37fe"
+        },
+        {
+          "annotation_operand": "0x35ce",
+          "old_target": "0x35a5",
+          "rom_target": "0x35af"
+        },
+        {
+          "annotation_operand": "0x35e0",
+          "old_target": "0x37ec",
+          "rom_target": "0x37f6"
+        },
+        {
+          "annotation_operand": "0x35f1",
+          "old_target": "0x35a9",
+          "rom_target": "0x35b3"
+        },
+        {
+          "annotation_operand": "0x3603",
+          "old_target": "0x37ec",
+          "rom_target": "0x37f6"
+        },
+        {
+          "annotation_operand": "0x3613",
+          "old_target": "0x39f2",
+          "rom_target": "0x39fc"
+        },
+        {
+          "annotation_operand": "0x363d",
+          "old_target": "0x36ba",
+          "rom_target": "0x36c4"
+        },
+        {
+          "annotation_operand": "0x365b",
+          "old_target": "0x39d6",
+          "rom_target": "0x39e0"
+        },
+        {
+          "annotation_operand": "0x3660",
+          "old_target": "0x37f4",
+          "rom_target": "0x37fe"
+        },
+        {
+          "annotation_operand": "0x3670",
+          "old_target": "0x39bb",
+          "rom_target": "0x39c5"
+        },
+        {
+          "annotation_operand": "0x367d",
+          "old_target": "0x3620",
+          "rom_target": "0x362a"
+        },
+        {
+          "annotation_operand": "0x3685",
+          "old_target": "0x3620",
+          "rom_target": "0x362a"
+        },
+        {
+          "annotation_operand": "0x3689",
+          "old_target": "0x3782",
+          "rom_target": "0x378c"
+        },
+        {
+          "annotation_operand": "0x3697",
+          "old_target": "0x3620",
+          "rom_target": "0x362a"
+        },
+        {
+          "annotation_operand": "0x369f",
+          "old_target": "0x3620",
+          "rom_target": "0x362a"
+        },
+        {
+          "annotation_operand": "0x36a2",
+          "old_target": "0x3958",
+          "rom_target": "0x3962"
+        },
+        {
+          "annotation_operand": "0x36a5",
+          "old_target": "0x3972",
+          "rom_target": "0x397c"
+        },
+        {
+          "annotation_operand": "0x36a8",
+          "old_target": "0x3798",
+          "rom_target": "0x37a2"
+        },
+        {
+          "annotation_operand": "0x36b0",
+          "old_target": "0x3766",
+          "rom_target": "0x3770"
+        },
+        {
+          "annotation_operand": "0x36ca",
+          "old_target": "0x3620",
+          "rom_target": "0x362a"
+        },
+        {
+          "annotation_operand": "0x36cd",
+          "old_target": "0x3972",
+          "rom_target": "0x397c"
+        },
+        {
+          "annotation_operand": "0x371d",
+          "old_target": "0x37ec",
+          "rom_target": "0x37f6"
+        },
+        {
+          "annotation_operand": "0x373d",
+          "old_target": "0x37ec",
+          "rom_target": "0x37f6"
+        },
+        {
+          "annotation_operand": "0x374f",
+          "old_target": "0x37ec",
+          "rom_target": "0x37f6"
+        },
+        {
+          "annotation_operand": "0x3767",
+          "old_target": "0x3774",
+          "rom_target": "0x377e"
+        },
+        {
+          "annotation_operand": "0x376a",
+          "old_target": "0x3774",
+          "rom_target": "0x377e"
+        },
+        {
+          "annotation_operand": "0x376d",
+          "old_target": "0x3774",
+          "rom_target": "0x377e"
+        }
+      ],
+      "sha256": "d2a149ea4d3a1afe01143ebac94404153ef70eb66e95de09bc034b674f05014b",
+      "match": true
+    },
+    {
+      "routine": "service totals, input and sound-test helpers",
+      "bank": "main",
+      "bytes": 265,
+      "annotation_start": "0x3958",
+      "rom_start": "0x3962",
+      "rom_end_exclusive": "0x3a6b",
+      "relocations": [
+        {
+          "annotation_operand": "0x3988",
+          "old_target": "0x3997",
+          "rom_target": "0x39a1"
+        },
+        {
+          "annotation_operand": "0x398d",
+          "old_target": "0x3997",
+          "rom_target": "0x39a1"
+        },
+        {
+          "annotation_operand": "0x3992",
+          "old_target": "0x3997",
+          "rom_target": "0x39a1"
+        },
+        {
+          "annotation_operand": "0x3998",
+          "old_target": "0x39aa",
+          "rom_target": "0x39b4"
+        },
+        {
+          "annotation_operand": "0x399b",
+          "old_target": "0x39a0",
+          "rom_target": "0x39aa"
+        },
+        {
+          "annotation_operand": "0x39a8",
+          "old_target": "0x39ae",
+          "rom_target": "0x39b8"
+        },
+        {
+          "annotation_operand": "0x39cb",
+          "old_target": "0x397d",
+          "rom_target": "0x3987"
+        },
+        {
+          "annotation_operand": "0x3a19",
+          "old_target": "0x3a47",
+          "rom_target": "0x3a51"
+        },
+        {
+          "annotation_operand": "0x3a2e",
+          "old_target": "0x3a3c",
+          "rom_target": "0x3a46"
+        },
+        {
+          "annotation_operand": "0x3a31",
+          "old_target": "0x3a4f",
+          "rom_target": "0x3a59"
+        }
+      ],
+      "sha256": "446c71b7062fb5620073c2d2957c939846839cad04a3c7c1f72105c5ee55051c",
+      "match": true
+    },
+    {
+      "routine": "sub-board reset and default tasks",
+      "bank": "sub",
+      "bytes": 66,
+      "annotation_start": "0x057c",
+      "rom_start": "0x057c",
+      "rom_end_exclusive": "0x05be",
+      "relocations": [],
+      "sha256": "00d9bbe19371e98ac76aad811a54741b6c204fc6d356c7103d4b8f3d7cea4fe4",
+      "match": true
+    },
+    {
+      "routine": "unused switch and optional external memory editor",
+      "bank": "sub",
+      "bytes": 272,
+      "annotation_start": "0x0eca",
+      "rom_start": "0x0eca",
+      "rom_end_exclusive": "0x0fda",
+      "relocations": [],
+      "sha256": "71a523904c7990401deb895b0e8a414e26353cfd91e7afc0ad47ee73dddaf635",
+      "match": true
+    },
+    {
+      "routine": "service DIP decoder and display",
+      "bank": "main",
+      "bytes": 356,
+      "annotation_start": "0x37f4",
+      "rom_start": "0x37fe",
+      "rom_end_exclusive": "0x3962",
+      "relocations": [
+        {
+          "annotation_operand": "0x37ff",
+          "old_target": "0x3acc",
+          "rom_target": "0x3ad6"
+        },
+        {
+          "annotation_operand": "0x3803",
+          "old_target": "0x3a61",
+          "rom_target": "0x3a6b"
+        },
+        {
+          "annotation_operand": "0x3824",
+          "old_target": "0x3a68",
+          "rom_target": "0x3a72"
+        },
+        {
+          "annotation_operand": "0x382d",
+          "old_target": "0x3ae4",
+          "rom_target": "0x3aee"
+        },
+        {
+          "annotation_operand": "0x3846",
+          "old_target": "0x3aeb",
+          "rom_target": "0x3af5"
+        },
+        {
+          "annotation_operand": "0x384c",
+          "old_target": "0x3ac4",
+          "rom_target": "0x3ace"
+        },
+        {
+          "annotation_operand": "0x386c",
+          "old_target": "0x3a6c",
+          "rom_target": "0x3a76"
+        },
+        {
+          "annotation_operand": "0x3891",
+          "old_target": "0x3af3",
+          "rom_target": "0x3b00"
+        },
+        {
+          "annotation_operand": "0x38a6",
+          "old_target": "0x3b04",
+          "rom_target": "0x3b11"
+        },
+        {
+          "annotation_operand": "0x38bb",
+          "old_target": "0x392d",
+          "rom_target": "0x3937"
+        },
+        {
+          "annotation_operand": "0x38c7",
+          "old_target": "0x3aa4",
+          "rom_target": "0x3aae"
+        },
+        {
+          "annotation_operand": "0x38d5",
+          "old_target": "0x38da",
+          "rom_target": "0x38e4"
+        },
+        {
+          "annotation_operand": "0x38dd",
+          "old_target": "0x393b",
+          "rom_target": "0x3945"
+        },
+        {
+          "annotation_operand": "0x38e3",
+          "old_target": "0x3b1a",
+          "rom_target": "0x3b27"
+        },
+        {
+          "annotation_operand": "0x3900",
+          "old_target": "0x391e",
+          "rom_target": "0x3928"
+        },
+        {
+          "annotation_operand": "0x390a",
+          "old_target": "0x3949",
+          "rom_target": "0x3953"
+        },
+        {
+          "annotation_operand": "0x3910",
+          "old_target": "0x391e",
+          "rom_target": "0x3928"
+        },
+        {
+          "annotation_operand": "0x3914",
+          "old_target": "0x3b4d",
+          "rom_target": "0x3b5a"
+        },
+        {
+          "annotation_operand": "0x392e",
+          "old_target": "0x3b64",
+          "rom_target": "0x3b71"
+        }
+      ],
+      "sha256": "a02b4ef328b3e7f1e61c2e1b12a7fb3ef005f6c94c908179e847229385990c2d",
+      "match": true
+    },
+    {
+      "routine": "cabinet wrapper and configuration tables",
+      "bank": "main",
+      "bytes": 138,
+      "annotation_start": "0x3a61",
+      "rom_start": "0x3a6b",
+      "rom_end_exclusive": "0x3af5",
+      "relocations": [
+        {
+          "annotation_operand": "0x3acc",
+          "old_target": "0x3ad0",
+          "rom_target": "0x3ada"
+        },
+        {
+          "annotation_operand": "0x3ace",
+          "old_target": "0x3ada",
+          "rom_target": "0x3ae4"
+        }
+      ],
+      "sha256": "c12ae54aad614ecb2ef3f1ebac093d72bc043a68353cba3a2448400b1962a717",
+      "match": true
+    },
+    {
+      "routine": "power-on, attract wait and game start",
+      "bank": "main",
+      "bytes": 395,
+      "annotation_start": "0x02d3",
+      "rom_start": "0x02d3",
+      "rom_end_exclusive": "0x045e",
+      "relocations": [
+        {
+          "annotation_operand": "0x0345",
+          "old_target": "0x1230",
+          "rom_target": "0x1242"
+        },
+        {
+          "annotation_operand": "0x0374",
+          "old_target": "0x1230",
+          "rom_target": "0x1242"
+        },
+        {
+          "annotation_operand": "0x0394",
+          "old_target": "0x1230",
+          "rom_target": "0x1242"
+        },
+        {
+          "annotation_operand": "0x040a",
+          "old_target": "0x1269",
+          "rom_target": "0x127b"
+        },
+        {
+          "annotation_operand": "0x042a",
+          "old_target": "0x1398",
+          "rom_target": "0x13b3"
+        },
+        {
+          "annotation_operand": "0x044c",
+          "old_target": "0x1398",
+          "rom_target": "0x13b3"
+        },
+        {
+          "annotation_operand": "0x044f",
+          "old_target": "0x128c",
+          "rom_target": "0x129e"
+        }
+      ],
+      "sha256": "e449d8883db40376d48feadc1b721a2d715c2e78aea764aea83efde2fb17a6ef",
+      "match": true
+    },
+    {
+      "routine": "credit, game time and accumulated machine score",
+      "bank": "main",
+      "bytes": 220,
+      "annotation_start": "0x0977",
+      "rom_start": "0x0977",
+      "rom_end_exclusive": "0x0a53",
+      "relocations": [],
+      "sha256": "ffd67d8124780e9025ddd4f384380e47275de996c3aa4785de48ccb6b6a0578d",
+      "match": true
+    },
+    {
+      "routine": "player state, enemy data and task exchange",
+      "bank": "main",
+      "bytes": 115,
+      "annotation_start": "0x110c",
+      "rom_start": "0x110c",
+      "rom_end_exclusive": "0x117f",
+      "relocations": [],
+      "sha256": "dd576779a1c7f3f402b823b935f4b2cd5b9d476ce027b3e294eeb578894e6f3f",
+      "match": true
+    },
+    {
+      "routine": "task table initialisation",
+      "bank": "main",
+      "bytes": 57,
+      "annotation_start": "0x1230",
+      "rom_start": "0x1242",
+      "rom_end_exclusive": "0x127b",
+      "relocations": [
+        {
+          "annotation_operand": "0x1231",
+          "old_target": "0x1249",
+          "rom_target": "0x125b"
+        }
+      ],
+      "sha256": "c2616fabdc08992150fc1e7067e7d8695e1307fe6b34237067a4fd6ed0c61a3f",
+      "match": true
+    },
+    {
+      "routine": "static sprite layout",
+      "bank": "main",
+      "bytes": 55,
+      "annotation_start": "0x128c",
+      "rom_start": "0x129e",
+      "rom_end_exclusive": "0x12d5",
+      "relocations": [],
+      "sha256": "2b2d0bf8b6c81b5e1932cd8bfabf30494417cdeafe1593a4987d43d1bd29cda1",
+      "match": true
+    },
+    {
+      "routine": "attract and scripted fighter control",
+      "bank": "main",
+      "bytes": 690,
+      "annotation_start": "0x1700",
+      "rom_start": "0x1700",
+      "rom_end_exclusive": "0x19b2",
+      "relocations": [
+        {
+          "annotation_operand": "0x172e",
+          "old_target": "0x1f0f",
+          "rom_target": "0x1f19"
+        },
+        {
+          "annotation_operand": "0x1756",
+          "old_target": "0x1f92",
+          "rom_target": "0x1f9c"
+        },
+        {
+          "annotation_operand": "0x1764",
+          "old_target": "0x1f0f",
+          "rom_target": "0x1f19"
+        },
+        {
+          "annotation_operand": "0x1809",
+          "old_target": "0x133a",
+          "rom_target": "0x134c"
+        },
+        {
+          "annotation_operand": "0x1842",
+          "old_target": "0x1230",
+          "rom_target": "0x1242"
+        },
+        {
+          "annotation_operand": "0x1870",
+          "old_target": "0x133a",
+          "rom_target": "0x134c"
+        },
+        {
+          "annotation_operand": "0x18dc",
+          "old_target": "0x128c",
+          "rom_target": "0x129e"
+        },
+        {
+          "annotation_operand": "0x18e8",
+          "old_target": "0x133a",
+          "rom_target": "0x134c"
+        },
+        {
+          "annotation_operand": "0x1923",
+          "old_target": "0x1269",
+          "rom_target": "0x127b"
+        },
+        {
+          "annotation_operand": "0x19a4",
+          "old_target": "0x128c",
+          "rom_target": "0x129e"
+        }
+      ],
+      "sha256": "06d16351efd5c555714e159473c4d2679a921c477429c1601b40e1b7c36a66d3",
+      "match": true
+    },
+    {
+      "routine": "formation retreat and star-control acceleration",
+      "bank": "main",
+      "bytes": 129,
+      "annotation_start": "0x1d32",
+      "rom_start": "0x1d38",
+      "rom_end_exclusive": "0x1db9",
+      "relocations": [],
+      "sha256": "7b792f49cedcca28881749e96b39465a66d400d9d4133af36066f511ed037a83",
+      "match": true
+    },
+    {
+      "routine": "high-score initials executive and text",
+      "bank": "main",
+      "bytes": 876,
+      "annotation_start": "0x3000",
+      "rom_start": "0x3000",
+      "rom_end_exclusive": "0x336c",
+      "relocations": [],
+      "sha256": "4f95be3ef33d944016bcb24ce7d5e90ffa79c0de6387b5c813643c215a2ea985",
+      "match": true
+    },
+    {
+      "routine": "stage splash and environment",
+      "bank": "main",
+      "bytes": 178,
+      "annotation_start": "0x0185",
+      "rom_start": "0x0185",
+      "rom_end_exclusive": "0x0237",
+      "relocations": [
+        {
+          "annotation_operand": "0x01d7",
+          "old_target": "0x12c3",
+          "rom_target": "0x12d5"
+        },
+        {
+          "annotation_operand": "0x0232",
+          "old_target": "0x1398",
+          "rom_target": "0x13b3"
+        }
+      ],
+      "sha256": "3fd08dbd248c2f6e651cbcb8ab4360236b4d9193d3f3fc5cef9c81006ae3841e",
+      "match": true
+    },
+    {
+      "routine": "challenge-stage completion",
+      "bank": "main",
+      "bytes": 222,
+      "annotation_start": "0x064a",
+      "rom_start": "0x064a",
+      "rom_end_exclusive": "0x0728",
+      "relocations": [
+        {
+          "annotation_operand": "0x064b",
+          "old_target": "0x1398",
+          "rom_target": "0x13b3"
+        },
+        {
+          "annotation_operand": "0x0661",
+          "old_target": "0x131f",
+          "rom_target": "0x1331"
+        },
+        {
+          "annotation_operand": "0x0667",
+          "old_target": "0x131f",
+          "rom_target": "0x1331"
+        },
+        {
+          "annotation_operand": "0x0673",
+          "old_target": "0x131f",
+          "rom_target": "0x1331"
+        },
+        {
+          "annotation_operand": "0x0680",
+          "old_target": "0x131f",
+          "rom_target": "0x1331"
+        },
+        {
+          "annotation_operand": "0x06c3",
+          "old_target": "0x131f",
+          "rom_target": "0x1331"
+        },
+        {
+          "annotation_operand": "0x06c6",
+          "old_target": "0x131f",
+          "rom_target": "0x1331"
+        },
+        {
+          "annotation_operand": "0x06ce",
+          "old_target": "0x1398",
+          "rom_target": "0x13b3"
+        },
+        {
+          "annotation_operand": "0x06d6",
+          "old_target": "0x1398",
+          "rom_target": "0x13b3"
+        }
+      ],
+      "sha256": "18ae405c8a38cfa82829c3860330a50230ff91be4895d6640f55a94cbbd85551",
+      "match": true
+    },
+    {
+      "routine": "refresh-based random lookup",
+      "bank": "main",
+      "bytes": 18,
+      "annotation_start": "0x1000",
+      "rom_start": "0x1000",
+      "rom_end_exclusive": "0x1012",
+      "relocations": [],
+      "sha256": "f98293c72718789f7f17bacca5f08b00b6fdb7e288b6b698bfcfb9775745a466",
+      "match": true
+    },
+    {
+      "routine": "bonus-bee selection and launch",
+      "bank": "main",
+      "bytes": 229,
+      "annotation_start": "0x1a80",
+      "rom_start": "0x1a86",
+      "rom_end_exclusive": "0x1b6b",
+      "relocations": [
+        {
+          "annotation_operand": "0x1ae5",
+          "old_target": "0x1b54",
+          "rom_target": "0x1b5a"
+        },
+        {
+          "annotation_operand": "0x1b17",
+          "old_target": "0x1b59",
+          "rom_target": "0x1b5f"
+        },
+        {
+          "annotation_operand": "0x1b2e",
+          "old_target": "0x1b5f",
+          "rom_target": "0x1b65"
+        }
+      ],
+      "sha256": "1533f54884fa7ece9f2403f8cacbfc4397f6ec22ed76438720c379cefb9e0e71",
+      "match": true
+    },
+    {
+      "routine": "capture beam, spin and rescue",
+      "bank": "main",
+      "bytes": 989,
+      "annotation_start": "0x2000",
+      "rom_start": "0x2000",
+      "rom_end_exclusive": "0x23dd",
+      "relocations": [],
+      "sha256": "101e60140de3723282527b1b40505ae2bee3266530fcc2b61d87466e899b939c",
+      "match": true
+    },
+    {
+      "routine": "background restart, termination and respawn flow",
+      "bank": "main",
+      "bytes": 428,
+      "annotation_start": "0x049e",
+      "rom_start": "0x049e",
+      "rom_end_exclusive": "0x064a",
+      "relocations": [
+        {
+          "annotation_operand": "0x04fb",
+          "old_target": "0x1398",
+          "rom_target": "0x13b3"
+        },
+        {
+          "annotation_operand": "0x0501",
+          "old_target": "0x131f",
+          "rom_target": "0x1331"
+        },
+        {
+          "annotation_operand": "0x0504",
+          "old_target": "0x131f",
+          "rom_target": "0x1331"
+        },
+        {
+          "annotation_operand": "0x0539",
+          "old_target": "0x1398",
+          "rom_target": "0x13b3"
+        },
+        {
+          "annotation_operand": "0x05c6",
+          "old_target": "0x136c",
+          "rom_target": "0x137e"
+        },
+        {
+          "annotation_operand": "0x05e2",
+          "old_target": "0x12c3",
+          "rom_target": "0x12d5"
+        },
+        {
+          "annotation_operand": "0x061c",
+          "old_target": "0x1398",
+          "rom_target": "0x13b3"
+        },
+        {
+          "annotation_operand": "0x061f",
+          "old_target": "0x132b",
+          "rom_target": "0x133d"
+        },
+        {
+          "annotation_operand": "0x0630",
+          "old_target": "0x131f",
+          "rom_target": "0x1331"
+        },
+        {
+          "annotation_operand": "0x0643",
+          "old_target": "0x1398",
+          "rom_target": "0x13b3"
+        }
+      ],
+      "sha256": "c3830ef574bee6caa6da45c4afa873b34caa147703ea3fb6947e7724fa6fe456",
+      "match": true
+    },
+    {
+      "routine": "delay and fighter onscreen helpers",
+      "bank": "main",
+      "bytes": 77,
+      "annotation_start": "0x131f",
+      "rom_start": "0x1331",
+      "rom_end_exclusive": "0x137e",
+      "relocations": [
+        {
+          "annotation_operand": "0x1341",
+          "old_target": "0x136c",
+          "rom_target": "0x137e"
+        }
+      ],
+      "sha256": "4979fdeba4fd497a89a2aaa29c03b151d849a351e336552f37786877de05633a",
+      "match": true
+    },
+    {
+      "routine": "original string writer",
+      "bank": "main",
+      "bytes": 62,
+      "annotation_start": "0x1398",
+      "rom_start": "0x13b3",
+      "rom_end_exclusive": "0x13f1",
+      "relocations": [
+        {
+          "annotation_operand": "0x139e",
+          "old_target": "0x13d4",
+          "rom_target": "0x13ef"
+        }
+      ],
+      "sha256": "9ca36b7238be83c67d58f5746fc11dca19d6cd0087e9f07f253d423fefeca19d",
+      "match": true
+    },
+    {
+      "routine": "playfield clear",
+      "bank": "main",
+      "bytes": 37,
+      "annotation_start": "0x0160",
+      "rom_start": "0x0160",
+      "rom_end_exclusive": "0x0185",
+      "relocations": [],
+      "sha256": "070c49be4293b99d09431efcf468952a408445f0b176545f8e7fb8414c68e250",
+      "match": true
+    },
+    {
+      "routine": "decimal output and hit ratio",
+      "bank": "main",
+      "bytes": 188,
+      "annotation_start": "0x0a53",
+      "rom_start": "0x0a53",
+      "rom_end_exclusive": "0x0b0f",
+      "relocations": [],
+      "sha256": "1f6c651e07a0a176b63e3b612fde85a8a2a98136690e74ad002982c3b84254b8",
+      "match": true
+    },
+    {
+      "routine": "main multiply and divide helpers",
+      "bank": "main",
+      "bytes": 43,
+      "annotation_start": "0x104e",
+      "rom_start": "0x104e",
+      "rom_end_exclusive": "0x1079",
+      "relocations": [],
+      "sha256": "9fa66d61d14733aa12e233a598a2288d721ffee9dfbbbba45eced16f0ef198ef",
+      "match": true
+    },
+    {
+      "routine": "attacker motion-slot setup",
+      "bank": "main",
+      "bytes": 147,
+      "annotation_start": "0x1079",
+      "rom_start": "0x1079",
+      "rom_end_exclusive": "0x110c",
+      "relocations": [],
+      "sha256": "3ed0adb9e2f70f9e0cc4b9d8c27cc1e4ce0c7e1b94cd9389d474cc72b14770d0",
+      "match": true
+    },
+    {
+      "routine": "enemy sortie manager and escort selection",
+      "bank": "main",
+      "bytes": 461,
+      "annotation_start": "0x1b65",
+      "rom_start": "0x1b6b",
+      "rom_end_exclusive": "0x1d38",
+      "relocations": [
+        {
+          "annotation_operand": "0x1bc9",
+          "old_target": "0x1bd1",
+          "rom_target": "0x1bd7"
+        },
+        {
+          "annotation_operand": "0x1bd1",
+          "old_target": "0x1bd7",
+          "rom_target": "0x1bdd"
+        },
+        {
+          "annotation_operand": "0x1bd3",
+          "old_target": "0x1bf7",
+          "rom_target": "0x1bfd"
+        },
+        {
+          "annotation_operand": "0x1bd5",
+          "old_target": "0x1c01",
+          "rom_target": "0x1c07"
+        },
+        {
+          "annotation_operand": "0x1c2e",
+          "old_target": "0x1cae",
+          "rom_target": "0x1cb4"
+        },
+        {
+          "annotation_operand": "0x1c31",
+          "old_target": "0x1d2c",
+          "rom_target": "0x1d32"
+        },
+        {
+          "annotation_operand": "0x1c59",
+          "old_target": "0x1c8d",
+          "rom_target": "0x1c93"
+        },
+        {
+          "annotation_operand": "0x1c69",
+          "old_target": "0x1c8d",
+          "rom_target": "0x1c93"
+        },
+        {
+          "annotation_operand": "0x1c86",
+          "old_target": "0x1d25",
+          "rom_target": "0x1d2b"
+        },
+        {
+          "annotation_operand": "0x1cc8",
+          "old_target": "0x1cfd",
+          "rom_target": "0x1d03"
+        },
+        {
+          "annotation_operand": "0x1cde",
+          "old_target": "0x1d03",
+          "rom_target": "0x1d09"
+        },
+        {
+          "annotation_operand": "0x1ce1",
+          "old_target": "0x1d03",
+          "rom_target": "0x1d09"
+        },
+        {
+          "annotation_operand": "0x1d10",
+          "old_target": "0x1d2c",
+          "rom_target": "0x1d32"
+        }
+      ],
+      "sha256": "cb80fcd7cff076c75f3f2f264efc96000a07446625482bc533efb7fbe3715ce5",
+      "match": true
+    },
+    {
+      "routine": "main interrupt task kernel",
+      "bank": "main",
+      "bytes": 121,
+      "annotation_start": "0x0237",
+      "rom_start": "0x0237",
+      "rom_end_exclusive": "0x02b0",
+      "relocations": [],
+      "sha256": "0a6309ad59d1e3059b37601e6ae7baba947e69cc229bab2ec468fbedaf9c5345",
+      "match": true
+    },
+    {
+      "routine": "score supervisor and decimal tile increment",
+      "bank": "main",
+      "bytes": 211,
+      "annotation_start": "0x0728",
+      "rom_start": "0x0728",
+      "rom_end_exclusive": "0x07fb",
+      "relocations": [
+        {
+          "annotation_operand": "0x07c6",
+          "old_target": "0x136c",
+          "rom_target": "0x137e"
+        }
+      ],
+      "sha256": "427c09d76287b6fa4af2f88edac2839e1122839a8b923f4a8f2c9eabcb5d58ae",
+      "match": true
+    },
+    {
+      "routine": "hit notification and game timers",
+      "bank": "main",
+      "bytes": 51,
+      "annotation_start": "0x1db3",
+      "rom_start": "0x1db9",
+      "rom_end_exclusive": "0x1dec",
+      "relocations": [],
+      "sha256": "b035c8ca90cdd8790757111a4a6f0d9fa5792f0964ae95105dc9eb41b543c36e",
+      "match": true
+    },
+    {
+      "routine": "main sprite copy and bomber timer setup",
+      "bank": "main",
+      "bytes": 269,
+      "annotation_start": "0x0828",
+      "rom_start": "0x0828",
+      "rom_end_exclusive": "0x0935",
+      "relocations": [],
+      "sha256": "296f274fed7c1ee41c42558f9744a489558ee2a7a911469dda43c97666af6f7d",
+      "match": true
+    },
+    {
+      "routine": "player label blink",
+      "bank": "main",
+      "bytes": 66,
+      "annotation_start": "0x0935",
+      "rom_start": "0x0935",
+      "rom_end_exclusive": "0x0977",
+      "relocations": [],
+      "sha256": "25721f7b1798e903ab8701a93b2bee45eac806fa11a8d0a93e7b6f55da5ac1e3",
+      "match": true
+    },
+    {
+      "routine": "missile object initialisation",
+      "bank": "main",
+      "bytes": 35,
+      "annotation_start": "0x1269",
+      "rom_start": "0x127b",
+      "rom_end_exclusive": "0x129e",
+      "relocations": [],
+      "sha256": "b0fa130e31e027aa5c1a578db105419d3c12cee8043a65b19d914df5ece6167e",
+      "match": true
+    },
+    {
+      "routine": "initial score header writes",
+      "bank": "main",
+      "bytes": 21,
+      "annotation_start": "0x00d6",
+      "rom_start": "0x00d6",
+      "rom_end_exclusive": "0x00eb",
+      "relocations": [],
+      "sha256": "cf2caf63eae6d42ece1803ee5ccf76531fffbc2b5cd28031df3e915b21000aed",
+      "match": true
+    },
+    {
+      "routine": "sub sprite copy",
+      "bank": "sub",
+      "bytes": 47,
+      "annotation_start": "0x05bf",
+      "rom_start": "0x05bf",
+      "rom_end_exclusive": "0x05ee",
+      "relocations": [],
+      "sha256": "df30c16012602ceedd7b6af7a814042fb18a322cd9619038330bb2a2d94249a1",
+      "match": true
+    },
+    {
+      "routine": "fighter collision and termination",
+      "bank": "sub",
+      "bytes": 263,
+      "annotation_start": "0x05ee",
+      "rom_start": "0x05ee",
+      "rom_end_exclusive": "0x06f5",
+      "relocations": [],
+      "sha256": "e9a1315a1bab59fdb2fb38e81cbd72e6da0493fd7cf8e58ecf46daf14a3a31f1",
+      "match": true
+    },
+    {
+      "routine": "fighter control",
+      "bank": "main",
+      "bytes": 88,
+      "annotation_start": "0x1f85",
+      "rom_start": "0x1f8f",
+      "rom_end_exclusive": "0x1fe7",
+      "relocations": [],
+      "sha256": "8a04713b22ffb48e041ca5b450d399033ade201add31997d3f16613ee21087d6",
+      "match": true
+    },
+    {
+      "routine": "fire input and rocket initialisation",
+      "bank": "main",
+      "bytes": 129,
+      "annotation_start": "0x1f04",
+      "rom_start": "0x1f0e",
+      "rom_end_exclusive": "0x1f8f",
+      "relocations": [],
+      "sha256": "f94e8ad58ba3189dd9133ddfcfd84ef342031d8edc0cd8933755687c42d60572",
+      "match": true
+    },
+    {
+      "routine": "formation coordinate initialisation",
+      "bank": "main",
+      "bytes": 76,
+      "annotation_start": "0x12c3",
+      "rom_start": "0x12d5",
+      "rom_end_exclusive": "0x1321",
+      "relocations": [
+        {
+          "annotation_operand": "0x12cd",
+          "old_target": "0x130f",
+          "rom_target": "0x1321"
+        },
+        {
+          "annotation_operand": "0x12de",
+          "old_target": "0x130f",
+          "rom_target": "0x1321"
+        }
+      ],
+      "sha256": "afa5b5978c53d2b7fdde4cd0a3df46f7a76ed4b6bd2fc8f61e4f6fba41b8296c",
+      "match": true
+    },
+    {
+      "routine": "formation expansion",
+      "bank": "main",
+      "bytes": 126,
+      "annotation_start": "0x1de6",
+      "rom_start": "0x1dec",
+      "rom_end_exclusive": "0x1e6a",
+      "relocations": [
+        {
+          "annotation_operand": "0x1e14",
+          "old_target": "0x1e64",
+          "rom_target": "0x1e6a"
+        },
+        {
+          "annotation_operand": "0x1e3d",
+          "old_target": "0x1e43",
+          "rom_target": "0x1e49"
+        }
+      ],
+      "sha256": "94e9e68aa3a213fc27065dee2257dd4a4a71a97ad5f3fcb5cc448735926f19ab",
+      "match": true
+    },
+    {
+      "routine": "object dispatcher",
+      "bank": "main",
+      "bytes": 451,
+      "annotation_start": "0x23dd",
+      "rom_start": "0x23dd",
+      "rom_end_exclusive": "0x25a0",
+      "relocations": [],
+      "sha256": "37390f1881e5781c9f437ed8fd5714976715fa422d57e3372759358e0b478457",
+      "match": true
+    },
+    {
+      "routine": "wave sequence builder",
+      "bank": "main",
+      "bytes": 262,
+      "annotation_start": "0x25a2",
+      "rom_start": "0x25a2",
+      "rom_end_exclusive": "0x26a8",
+      "relocations": [],
+      "sha256": "cc42391f0a0b245269741d2b895c33c1179255e6e065bd406c81ccb1691364b3",
+      "match": true
+    },
+    {
+      "routine": "enemy class initialisation",
+      "bank": "main",
+      "bytes": 106,
+      "annotation_start": "0x2896",
+      "rom_start": "0x2896",
+      "rom_end_exclusive": "0x2900",
+      "relocations": [],
+      "sha256": "21dda9851b815bcf5650f0b81f0ecc6332d739904db468f2c02b04ebd15cab0d",
+      "match": true
+    },
+    {
+      "routine": "entrance launcher and formation slide",
+      "bank": "main",
+      "bytes": 471,
+      "annotation_start": "0x2916",
+      "rom_start": "0x2916",
+      "rom_end_exclusive": "0x2aed",
+      "relocations": [],
+      "sha256": "e7a8bd8393df8c9e83f07e67d9abba3d7f566a541e9df22e551ee2647cee6c53",
+      "match": true
+    },
+    {
+      "routine": "stage parameter unpacker",
+      "bank": "main",
+      "bytes": 101,
+      "annotation_start": "0x2c00",
+      "rom_start": "0x2c00",
+      "rom_end_exclusive": "0x2c65",
+      "relocations": [],
+      "sha256": "e4702fe184774dae113f6fdeecf3c65d9ce95acd8b0c0499c6a66065a8c09c34",
+      "match": true
+    },
+    {
+      "routine": "rocket movement and detection",
+      "bank": "sub",
+      "bytes": 478,
+      "annotation_start": "0x06f5",
+      "rom_start": "0x06f5",
+      "rom_end_exclusive": "0x08d3",
+      "relocations": [],
+      "sha256": "797ada1e1a97c1448e2a0736bd0a1731684ea0b73f5cb0278c27c4b7f839982a",
+      "match": true
+    },
+    {
+      "routine": "flight dispatcher",
+      "bank": "sub",
+      "bytes": 818,
+      "annotation_start": "0x08d3",
+      "rom_start": "0x08d3",
+      "rom_end_exclusive": "0x0c05",
+      "relocations": [
+        {
+          "annotation_operand": "0x08e9",
+          "old_target": "0x0dfb",
+          "rom_target": "0x0dff"
+        },
+        {
+          "annotation_operand": "0x0900",
+          "old_target": "0x0e49",
+          "rom_target": "0x0e4d"
+        },
+        {
+          "annotation_operand": "0x0920",
+          "old_target": "0x0e49",
+          "rom_target": "0x0e4d"
+        },
+        {
+          "annotation_operand": "0x0a3c",
+          "old_target": "0x0eaa",
+          "rom_target": "0x0eae"
+        },
+        {
+          "annotation_operand": "0x0a82",
+          "old_target": "0x0e5b",
+          "rom_target": "0x0e5f"
+        },
+        {
+          "annotation_operand": "0x0afb",
+          "old_target": "0x0e5b",
+          "rom_target": "0x0e5f"
+        },
+        {
+          "annotation_operand": "0x0b36",
+          "old_target": "0x0eaa",
+          "rom_target": "0x0eae"
+        },
+        {
+          "annotation_operand": "0x0b96",
+          "old_target": "0x0dfb",
+          "rom_target": "0x0dff"
+        }
+      ],
+      "sha256": "39ab87660f1d6d3a73ebb8a93ca0eb5b3d10354670c2559200bfd069ca5a0f61",
+      "match": true
+    },
+    {
+      "routine": "home detection and sprite orientation",
+      "bank": "sub",
+      "bytes": 162,
+      "annotation_start": "0x0c05",
+      "rom_start": "0x0c05",
+      "rom_end_exclusive": "0x0ca7",
+      "relocations": [
+        {
+          "annotation_operand": "0x0c22",
+          "old_target": "0x0e08",
+          "rom_target": "0x0e0c"
+        },
+        {
+          "annotation_operand": "0x0c2b",
+          "old_target": "0x0e08",
+          "rom_target": "0x0e0c"
+        }
+      ],
+      "sha256": "cc5d12e8c781c767e6d1d357fc039223e4af9cefe590a0ddfd296a9d3c4a4d03",
+      "match": true
+    },
+    {
+      "routine": "fixed point coordinate step",
+      "bank": "sub",
+      "bytes": 92,
+      "annotation_start": "0x0ca7",
+      "rom_start": "0x0ca7",
+      "rom_end_exclusive": "0x0d03",
+      "relocations": [
+        {
+          "annotation_operand": "0x0ce8",
+          "old_target": "0x0e97",
+          "rom_target": "0x0e9b"
+        }
+      ],
+      "sha256": "6f0003b8b723078d07db4339b2ca7547d3c9fa54136797ed9121b2ff4667b5ac",
+      "match": true
+    },
+    {
+      "routine": "home arrival",
+      "bank": "sub",
+      "bytes": 65,
+      "annotation_start": "0x0e08",
+      "rom_start": "0x0e0c",
+      "rom_end_exclusive": "0x0e4d",
+      "relocations": [],
+      "sha256": "a549d562f95c09062295fa35eb88678cbd2a258ffea4a47fbc4ec8dee6ee74ad",
+      "match": true
+    },
+    {
+      "routine": "home angle",
+      "bank": "sub",
+      "bytes": 60,
+      "annotation_start": "0x0e5b",
+      "rom_start": "0x0e5f",
+      "rom_end_exclusive": "0x0e9b",
+      "relocations": [
+        {
+          "annotation_operand": "0x0e88",
+          "old_target": "0x0eaa",
+          "rom_target": "0x0eae"
+        }
+      ],
+      "sha256": "18daeb1fb1b990171a598485f8d3cadec9ecfa9ab320ca1be738880d02bd9ee8",
+      "match": true
+    },
+    {
+      "routine": "8 bit multiplication",
+      "bank": "sub",
+      "bytes": 19,
+      "annotation_start": "0x0e97",
+      "rom_start": "0x0e9b",
+      "rom_end_exclusive": "0x0eae",
+      "relocations": [],
+      "sha256": "fa8bdfcff11e7da30bcecbc0e8b8f84f181da0f6dfb782b1810f3134a735f839",
+      "match": true
+    },
+    {
+      "routine": "16 by 8 bit division",
+      "bank": "sub",
+      "bytes": 24,
+      "annotation_start": "0x0eaa",
+      "rom_start": "0x0eae",
+      "rom_end_exclusive": "0x0ec6",
+      "relocations": [
+        {
+          "annotation_operand": "0x0ec0",
+          "old_target": "0x0eb7",
+          "rom_target": "0x0ebb"
+        }
+      ],
+      "sha256": "f738d69ff0cd58423eec32b7ed49c400c94be6426ab03c7f10df301e44b5f85b",
+      "match": true
+    },
+    {
+      "routine": "rev. B reserve icons",
+      "bank": "main",
+      "bytes": 53,
+      "rom_start": "0x137e",
+      "rom_end_exclusive": "0x13b3",
+      "source": "evidence/revision-b.s",
+      "relocations": [],
+      "sha256": "aef995ee75c8bc33ae02e167d8b52dafed38c3ab78dfab78f942aa68d4e0c0e6",
+      "match": true
+    },
+    {
+      "routine": "rev. B bomb updater",
+      "bank": "main",
+      "bytes": 100,
+      "rom_start": "0x1eaa",
+      "rom_end_exclusive": "0x1f0e",
+      "source": "evidence/revision-b.s",
+      "relocations": [],
+      "sha256": "b113bbb1d26cb25039a322edcdfcda5a6e389840e8ca1f5a127618ee9fdcd50f",
+      "match": true
+    },
+    {
+      "routine": "rev. B sprite output and bomb generation",
+      "bank": "sub",
+      "bytes": 265,
+      "rom_start": "0x0d03",
+      "rom_end_exclusive": "0x0e0c",
+      "source": "evidence/revision-b.s",
+      "relocations": [],
+      "sha256": "2f5dbf4466e4e2cde80dea3258ddfb44ba2d3ae3f7d4eb3a3d54245f33584395",
+      "match": true
+    },
+    {
+      "routine": "rev. B captured-fighter transfer",
+      "bank": "main",
+      "bytes": 212,
+      "rom_start": "0x19b2",
+      "rom_end_exclusive": "0x1a86",
+      "source": "evidence/revision-b.s",
+      "relocations": [],
+      "sha256": "139d7151cfa2263f3ede7ab49fed83d98290038f17a0e2497ef74b253d8e3320",
+      "match": true
+    },
+    {
+      "routine": "rev. B stage tokens",
+      "bank": "main",
+      "bytes": 195,
+      "rom_start": "0x117f",
+      "rom_end_exclusive": "0x1242",
+      "source": "evidence/revision-b.s",
+      "relocations": [],
+      "sha256": "7114104f66d6b6b7624bab40a8ab0861e56288d73e4eedd132e06a823fbda4e4",
+      "match": true
+    },
+    {
+      "routine": "rev. B sound sequencing and data",
+      "bank": "sound",
+      "bytes": 3748,
+      "rom_start": "0x00bb",
+      "rom_end_exclusive": "0x0f5f",
+      "source": "evidence/revision-b-sound.s",
+      "relocations": [],
+      "sha256": "7cb42f5f9a592da3cf2c4dcce52dbdb87ce3f9d91d767f4dbabea0546c2be302",
+      "match": true
+    }
+  ],
+  "limitation": "Matching assembly establishes the reference mapping; it is not proof that every Rust routine or every game feature has been ported."
+}
