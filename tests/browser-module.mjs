@@ -10,6 +10,12 @@ assert.ok(embedded, 'Standalone preview must embed its Rust module');
 assert.deepEqual(Buffer.from(embedded[1], 'base64'), binary);
 assert.ok(!html.includes("fetch('./galaga.wasm')"), 'Standalone preview must work without fetching files');
 assert.ok(!html.includes('src="./browser.js"'), 'Standalone preview must embed browser integration');
+assert.ok(html.includes("['KeyA', 1]") && html.includes("['KeyS', 2]") && html.includes("['Enter', 4]"),
+  'Browser shell must map A, S and Enter to the physical left, right and fire inputs');
+assert.ok(!html.includes("['ArrowLeft', 1]") && !html.includes("['Space', 4]"),
+  'Retired movement/fire mappings must not remain active');
+assert.ok(html.includes('fullscreen-menu-toggle') && html.includes('fullscreen-menu-open'),
+  'Fullscreen must hide the normal panel behind the compact menu control');
 
 const module = await WebAssembly.compile(binary);
 assert.deepEqual(WebAssembly.Module.imports(module), [], 'Game must not import an emulator or C runtime');

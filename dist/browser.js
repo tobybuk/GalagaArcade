@@ -5,6 +5,7 @@ const toggle = document.querySelector('#toggle');
 const restart = document.querySelector('#restart');
 const frameButton = document.querySelector('#step');
 const fullscreenButton = document.querySelector('#fullscreen');
+const fullscreenMenuButton = document.querySelector('#fullscreen-menu-toggle');
 const settingsButton = document.querySelector('#settings-button');
 const settingsDialog = document.querySelector('#settings-dialog');
 const settingsForm = document.querySelector('#settings-form');
@@ -16,7 +17,7 @@ let previousTime = 0, accumulated = 0, lastStatus = '';
 let theatreMode = false;
 let audioContext = null, nextAudioTime = 0;
 const audioSources = new Set();
-const keyBits = new Map([['ArrowLeft', 1], ['ArrowRight', 2], ['Space', 4], ['KeyC', 8], ['Digit5', 8], ['Digit1', 16], ['Digit2', 32]]);
+const keyBits = new Map([['KeyA', 1], ['KeyS', 2], ['Enter', 4], ['KeyC', 8], ['Digit5', 8], ['Digit1', 16], ['Digit2', 32]]);
 const FACTORY_SWITCHES = {a: 0xf7, b: 0x97};
 let cabinetSwitches = loadCabinetSwitches();
 let coldBoot = true;
@@ -141,6 +142,7 @@ setInterval(() => pump(performance.now()), 8);
 
 addEventListener('keydown', event => {
   if (settingsDialog.open && event.code !== 'Escape') return;
+  if (event.code === 'Enter' && event.target instanceof HTMLButtonElement) return;
   const bit = keyBits.get(event.code);
   if (bit) {
     event.preventDefault();
@@ -148,17 +150,19 @@ addEventListener('keydown', event => {
     if (!(buttons & bit)) pendingPresses |= bit;
     buttons |= bit;
     if (bit >= 8 && api && !running) setRunning(true);
-  } else if ((event.code === 'KeyP' || event.code === 'Enter') && api && !event.repeat) {
-    if (event.code === 'Enter' && event.target instanceof HTMLButtonElement) return;
+  } else if (event.code === 'KeyP' && api && !event.repeat) {
     event.preventDefault();
     startAudio();
     setRunning(!running);
   } else if (event.code === 'KeyF' && api && !event.repeat) {
     event.preventDefault();
     toggleFullscreen();
+  } else if (event.code === 'Escape' && document.documentElement.classList.contains('fullscreen-menu-open')) {
+    closeFullscreenMenu();
   } else if (event.code === 'Escape' && theatreMode) {
     theatreMode = false;
     document.documentElement.classList.remove('theatre');
+    closeFullscreenMenu();
     updateFullscreenLabel();
   }
 });
@@ -200,10 +204,11 @@ restart.addEventListener('click', () => {
 frameButton.addEventListener('click', () => { step(); draw(); });
 
 async function toggleFullscreen() {
-  if (document.fullscreenElement) { await document.exitFullscreen(); return; }
+  if (document.fullscreenElement) { closeFullscreenMenu(); await document.exitFullscreen(); return; }
   if (theatreMode) {
     theatreMode = false;
     document.documentElement.classList.remove('theatre');
+    closeFullscreenMenu();
     updateFullscreenLabel();
     return;
   }
@@ -217,8 +222,18 @@ async function toggleFullscreen() {
   updateFullscreenLabel();
 }
 fullscreenButton.addEventListener('click', toggleFullscreen);
+function closeFullscreenMenu() {
+  document.documentElement.classList.remove('fullscreen-menu-open');
+  fullscreenMenuButton.setAttribute('aria-expanded','false');
+}
+fullscreenMenuButton.addEventListener('click', () => {
+  const open = document.documentElement.classList.toggle('fullscreen-menu-open');
+  fullscreenMenuButton.setAttribute('aria-expanded',String(open));
+});
 function updateFullscreenLabel() {
-  fullscreenButton.textContent = document.fullscreenElement || theatreMode ? 'Exit full screen' : 'Full screen';
+  const active = Boolean(document.fullscreenElement || theatreMode);
+  fullscreenButton.textContent = active ? 'Exit full screen' : 'Full screen';
+  if (!active) closeFullscreenMenu();
 }
 document.addEventListener('fullscreenchange', updateFullscreenLabel);
 
@@ -234,6 +249,7 @@ function populateCabinetSwitches(saved) {
   set('lives', saved.b & 0xc0);
 }
 function showCabinetSwitches() {
+  closeFullscreenMenu();
   populateCabinetSwitches(cabinetSwitches);
   if (!settingsDialog.open) settingsDialog.showModal();
 }
