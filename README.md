@@ -45,6 +45,17 @@ For development with a local web server:
 python3 scripts/preview.py
 ```
 
+## Deploy with GitHub Pages
+
+The repository includes `.github/workflows/pages.yml`. Every push to `main`:
+
+1. installs Rust's `wasm32-unknown-unknown` target;
+2. runs the complete native release test suite;
+3. builds `dist/galaga.wasm` and the browser shell; and
+4. publishes `dist/` to GitHub Pages.
+
+After uploading the repository, open **Settings → Pages** on GitHub and select **GitHub Actions** as the publishing source. Push to `main`, or run **Build, test and deploy Galaga** manually from the Actions tab. A failed test prevents deployment.
+
 To regenerate assets and identified data tables from the original archive:
 
 ```sh

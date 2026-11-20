@@ -1,5 +1,6 @@
 {
   "files": {
+    ".github/workflows/pages.yml": "052f30092586d887a6b1e473000db3e9c55f1e72e72d9c534300a050e2033c54",
     ".gitignore": "7b600c0e163020de15b32d01427cc8bbc9d289d027e631a7ca57d861d516d8bd",
     "AGENTS.md": "9c648ca1c328202de3c226982fa8b35643c6c5d23021d2b97043e44a93a8f272",
     "Cargo.lock": "b68c93824ccbe2738f29c55abc653ba801396471e0dc0d47e29c34b23d30edee",
@@ -8,7 +9,7 @@
     "NOTICE.md": "7245c1e4b8fe6cf1d6341a3366eaa76030f48a5bdfa7f0f1d34f81bfc00e0033",
     "PORTING.md": "1b3f6b09c79d25366e1669ba5abe7084459766d74c06a524c0b208f4df6df2bb",
     "PROGRESS.md": "df26b575701e6235a24b62bdf7ad5b25b83aeed81d0551c196638517ead11f2d",
-    "README.md": "bea8fa1901719820e048ab504c433e40935f78b575086564a6512e069da1dcc9",
+    "README.md": "985ddaa4b13f7a7ea7f85f0c487e14af3d7c6d94fdc0e859b8820a5b8ac9517a",
     "Run preview.command": "c0437b384db2f665f187c46762f61dfc8075f1e90bae8d93823ecbcae7b793a0",
     "assets/character-colours.bin": "6534ac170c6a8b0f567179bb4f24d4ab8337e3561e5f229a7bd9b128d29fed4f",
     "assets/characters.bin": "5e68d9567938d80ebba91168f511b1952dba19658a841b73811c947fd6649f98",
